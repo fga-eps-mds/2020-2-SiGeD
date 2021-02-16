@@ -13,8 +13,8 @@ assignees: ''
 
 ## Tasks:
 
-[ ] - task
+- [ ] - task
 
 ## Critérios de aceitação:
 
-[ ] - critério
+- [ ] - critério
