@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  docs:
+    container_name: docs
+    image: squidfunk/mkdocs-material
+    volumes:
+      - .:/docs
+    ports:
+      - "8000:8000"
