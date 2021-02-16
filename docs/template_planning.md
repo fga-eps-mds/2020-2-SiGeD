@@ -2,6 +2,10 @@
 
 # Planejamento Sprint X
 
+## Objetivos da sprint
+
+- Objetivos da sprint
+
 ## Tamanho da Sprint
 
 - Início: -/-/2021
