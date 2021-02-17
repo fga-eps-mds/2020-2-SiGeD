@@ -10,8 +10,8 @@ Quadro que mostra quais tarefas planejadas foram concluídas.
 
 |Tarefa|Pontuação|Concluída|
 |--|--|--|
-|Tarefa concuída|--|:heavy_check_mark:|
-|Tarefa não concluída|--|:x:|
+|Tarefa concuída|--|<image src="https://i.pinimg.com/originals/21/3d/c0/213dc0ed0a2e69d1978c75bfbcff903a.png" width=30 height=35>|
+|Tarefa não concluída|--|<image src="https://contmoura.com.br/wp-content/uploads/2019/09/x-png-icon-8.png" width=30 height=30>|
 
 <br>
 
