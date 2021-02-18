@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+
+  <head>
+    <meta charset=”UTF-8”>
+    <title>Grupo 4</title>
+    <link rel="stylesheet" href="./assets/css/landing_page.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="page-top">
+        <img class="top-image" src="assets/img/building_website.svg" alt="logo">
+        <h1>Site em construção</h1>
+        <p class="description">Projeto de EPS e MDS do Grupo 4. Em breve com mais informações.</p>
+      </div>
+
+      <div>
+        <div class="card-button" onclick="location.href='home';">
+          <img class="button-icon" src="assets/img/docs.svg" alt="Documentação">
+          <p>Acessar documentação do projeto</p>
+        </div>
+        <div class="card-button" onclick="location.href='https://github.com/fga-eps-mds/2020-2-g4';">
+          <img class="button-icon" src="assets/img/github.png" alt="Documentação">
+          <p>Repositório do projeto</p>
+        </div>
+      </div>
+
+      <div class="team">
+        <h2 class="team-title">Equipe</h2>
+        <div id="teamMembers">
+      </div>
+    </div>
+
+    <footer>
+      <h1 class="footer-title">EPS/MDS - Grupo 4</h1>
+    </footer>
+
+  </body>
+  <script async onload="getTeamMembers()">
+    const team = [
+      {name: "Davi Marinho da Silva Campos", user: "DaviMarinho", role:"MDS"},
+      {name: "João Pedro Alves da Silva Chaves",	user: "JPedroCh", role: "MDS"},
+      {name: "Thiago Franca Vale Oliveira",	user: "Thiagof99", role: "MDS"},
+      {name: "Lucas da Cunha Andrade",	user: "nYCSTs", role: "MDS"},
+      {name: "Dafne Moretti Moreira",	user: "DafneM", role: "MDS"},
+      {name: "Victor Yukio Cavalcanti Miki", user: "yukioz", role: "MDS"},
+      {name: "Vitor Leal",	user: "vitorl-s", role: "EPS"},
+      {name: "Gabriel Carvalho",	user: "Gabrieloak", role: "EPS"},
+      {name: "Ezequiel de Oliveira",	user: "EzequielDeOliveira", role: "EPS"},
+      {name: "Gabriela Guedes",	user: "gabibguedes", role: "EPS"}
+    ]
+
+    async function getPhoto (username) {
+
+      let response = await fetch(`https://api.github.com/users/${username}`)
+      if (response.ok) {
+        let data = await response.json()
+        return data.avatar_url
+      } else {
+        alert("HTTP-Error: " + response.status);
+      }
+    }
+
+    async function getTeamMembers () {
+      await team.map(async (dev) => {
+        let image = await getPhoto(dev.user)
+        teamMembers.innerHTML += `
+        <a href="https://github.com/${dev.user}/">
+          <div class="img-container ">
+            <img src="${image}" alt="member" class="image">
+            <div class="middle">
+              <div class="name">${dev.name}</div>
+              <div class="role">${dev.role}</div>
+            </div>
+          </div>
+        </a>
+        `
+      })
+    }
+
+    window.onload = getTeamMembers()
+
+  </script>
+</html>
