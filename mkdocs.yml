@@ -1,8 +1,24 @@
 site_name: 2020.2 - G4
-theme:
-  name: 'material'
-  icon:
-    repo: fontawesome/brands/github
 
 repo_name: '2020.2 - G4'
 repo_url: 'https://github.com/fga-eps-mds/2020-2-G4'
+
+lang:
+  - pt
+
+nav:
+  - Home: index.html
+  - Documentação:
+    - home.md
+    - Equipe: team.md
+  - Templates:
+    - Planning: template_docs/template_planning.md
+    - Review: template_docs/template_review.md
+
+theme:
+  name: 'material'
+  features:
+    - navigation.tabs
+  icon:
+    repo: fontawesome/brands/github
+  
