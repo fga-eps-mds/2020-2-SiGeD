@@ -2,7 +2,7 @@
 
 ## Resultados obtidos na sprint 1
 
-A sprint foi bastante produtiva, todas as atividades foram concluídas e o nível de conhecimento do time de MDS 
+A sprint foi bastante produtiva, todas as atividades foram concluídas, os pontos completados ficaram acima do velocity e o nível de conhecimento do time de MDS 
 melhorou.
 
 ## Tarefas da sprint
@@ -26,10 +26,10 @@ melhorou.
 <br>
 
 ### Burndown
- - Gráfico de Burndown da sprint(imagem)
+ ![imagem](burndown.png)
 
 ### Velocity
- - Gráfico de Velocity da sprint(imagem)
+ ![imagem](velocity.png)
 
 ### Conhecimento dos membros
- - Tabela de conhecimento da sprint(imagem).
+ 
