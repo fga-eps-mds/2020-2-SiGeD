@@ -32,4 +32,5 @@ melhorou.
  ![imagem](velocity.png)
 
 ### Conhecimento dos membros
+  ![imagem](conhecimento.png)
  
