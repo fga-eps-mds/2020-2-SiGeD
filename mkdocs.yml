@@ -14,6 +14,13 @@ nav:
   - Templates:
     - Planning: template_docs/template_planning.md
     - Review: template_docs/template_review.md
+  - Sprints:
+    - Sprint1:
+      - Review: sprints/sprint1/sprint1_review.md
+      - Planning: sprints/sprint1/sprint1_planning.md
+    - Sprint2:
+      - Review: sprints/sprint1/sprint1_review.md
+      - Planning: sprints/sprint1/sprint1_planning.md
 
 theme:
   name: 'material'
