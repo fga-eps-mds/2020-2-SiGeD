@@ -6,6 +6,11 @@ repo_url: 'https://github.com/fga-eps-mds/2020-2-G4'
 lang:
   - pt
 
+extra_javascript:
+  - assets/js/jquery.min.js
+  - assets/js/jquery.zoom.min.js
+  - assets/js/extra.js
+
 nav:
   - Home: index.html
   - Documentação:
