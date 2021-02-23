@@ -25,8 +25,8 @@
 
 |Issue|Pontos|Responsáveis|
 |--|--|--|
-|[Numero da issue](#)|-||
-|[Numero da issue](#)|-||
-|[Numero da issue](#)|-||
-|[Numero da issue](#)|-||
+|[Nome da issue](#)|-||
+|[Nome da issue](#)|-||
+|[Nome da issue](#)|-||
+|[Nome da issue](#)|-||
 

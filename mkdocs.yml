@@ -25,7 +25,7 @@ nav:
       - Planning: sprints/sprint1/sprint1_planning.md
     - Sprint2:
       - Review: sprints/sprint1/sprint1_review.md
-      - Planning: sprints/sprint1/sprint1_planning.md
+      - Planning: sprints/sprint2/sprint2_planning.md
 
 theme:
   name: 'material'
