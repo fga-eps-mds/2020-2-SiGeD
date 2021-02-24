@@ -1,7 +1,7 @@
 # Sprint 0 - Review 
 
 ## Resultados obtidos na sprint 0
-Após debater sobre os temas, o grupo chegou a ideia de 3 temas. Além disso, o grupo de MDS começou a receber os trenimanetos de algumas das tecnologias que serão utilizadas no projeto.
+Após debater sobre os temas, o grupo chegou a ideia de 3 temas. Além disso, o grupo de MDS começou a receber os treinamentos de algumas das tecnologias que serão utilizadas no projeto.
 
 ### Tarefas Realizadas
 
