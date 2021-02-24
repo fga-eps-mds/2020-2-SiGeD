@@ -16,16 +16,19 @@ nav:
   - Documentação:
     - home.md
     - Equipe: team.md
+  - Sprints:
+    - Sprint 0:
+      - Review: sprints/sprint0/sprint0_review.md
+      - Planning: sprints/sprint0/sprint0_planning.md
+    - Sprint 1:
+      - Review: sprints/sprint1/sprint1_review.md
+      - Planning: sprints/sprint1/sprint1_planning.md
+    - Sprint 2:
+      - Review: sprints/sprint1/sprint1_review.md
+      - Planning: sprints/sprint2/sprint2_planning.md
   - Templates:
     - Planning: template_docs/template_planning.md
     - Review: template_docs/template_review.md
-  - Sprints:
-    - Sprint1:
-      - Review: sprints/sprint1/sprint1_review.md
-      - Planning: sprints/sprint1/sprint1_planning.md
-    - Sprint2:
-      - Review: sprints/sprint1/sprint1_review.md
-      - Planning: sprints/sprint2/sprint2_planning.md
 
 theme:
   name: 'material'
