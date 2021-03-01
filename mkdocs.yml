@@ -23,8 +23,8 @@ nav:
     - Sprint 1:
       - Review: sprints/sprint1/sprint1_review.md
       - Planning: sprints/sprint1/sprint1_planning.md
-    - Sprint 2:
-      - Review: sprints/sprint1/sprint1_review.md
+    - Sprint2:
+      - Review: sprints/sprint2/sprint2_review.md
       - Planning: sprints/sprint2/sprint2_planning.md
   - Templates:
     - Planning: template_docs/template_planning.md
