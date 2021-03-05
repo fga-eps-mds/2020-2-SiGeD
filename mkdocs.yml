@@ -22,9 +22,11 @@ nav:
       - Planning: sprints/sprint0/sprint0_planning.md
     - Sprint 1:
       - Review: sprints/sprint1/sprint1_review.md
+      - Retrospectiva: sprints/sprint1/sprint1_retrospect.md
       - Planning: sprints/sprint1/sprint1_planning.md
     - Sprint2:
       - Review: sprints/sprint2/sprint2_review.md
+      - Retrospectiva: sprints/sprint2/sprint2_retrospect.md
       - Planning: sprints/sprint2/sprint2_planning.md
     - Sprint 3:
       - Review: sprints/sprint3/sprint3_review.md
