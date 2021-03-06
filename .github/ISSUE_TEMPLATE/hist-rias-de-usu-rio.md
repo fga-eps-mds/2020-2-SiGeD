@@ -8,11 +8,11 @@ assignees: ''
 ---
 
 História:
-Eu, como ---- desejo visualizar --- a fim de ---
+Eu, como ---- , desejo visualizar ---  , a fim de ---
 
-## Tasks:
+## Nessa issue deve ser feito:
 
-- [ ] - tasks
+- Descrever o que deve ser feito na issue em steps
 
 ## Critérios de aceitação:
 
