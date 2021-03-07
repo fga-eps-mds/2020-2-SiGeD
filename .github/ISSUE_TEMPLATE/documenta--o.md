@@ -11,9 +11,9 @@ assignees: ''
 
 - Descrição
 
-## Tasks:
+## Nessa issue deve ser feito:
 
-- [ ] - task
+- task
 
 ## Critérios de aceitação:
 

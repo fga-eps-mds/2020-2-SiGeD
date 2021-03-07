@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-História:
+## História:
 Eu, como ---- , desejo visualizar ---  , a fim de ---
 
 ## Nessa issue deve ser feito:
