@@ -15,6 +15,7 @@ nav:
   - Home: index.html
   - Documentação:
     - home.md
+    - Guia de Contribuição: CONTRIBUTING.md
     - Equipe: team.md
   - Sprints:
     - Sprint 0:
