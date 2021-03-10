@@ -15,6 +15,7 @@ nav:
   - Home: index.html
   - Documentação:
     - home.md
+    - Guia de Contribuição: CONTRIBUTING.md
     - Equipe: team.md
   - Sprints:
     - Sprint 0:
@@ -24,7 +25,7 @@ nav:
       - Review: sprints/sprint1/sprint1_review.md
       - Retrospectiva: sprints/sprint1/sprint1_retrospect.md
       - Planning: sprints/sprint1/sprint1_planning.md
-    - Sprint2:
+    - Sprint 2:
       - Review: sprints/sprint2/sprint2_review.md
       - Retrospectiva: sprints/sprint2/sprint2_retrospect.md
       - Planning: sprints/sprint2/sprint2_planning.md
@@ -34,6 +35,7 @@ nav:
   - Templates:
     - Planning: template_docs/template_planning.md
     - Review: template_docs/template_review.md
+    - Retrospectiva: template_docs/template_retrospect.md
 
 theme:
   name: 'material'
