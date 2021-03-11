@@ -15,8 +15,10 @@ nav:
   - Home: index.html
   - Documentação:
     - home.md
-    - Guia de Contribuição: CONTRIBUTING.md
+    - Gerenciamento de Riscos: risks.md
     - Equipe: team.md
+  - Comunidade: 
+    - Guia de Contribuição: CONTRIBUTING.md
   - Sprints:
     - Sprint 0:
       - Review: sprints/sprint0/sprint0_review.md
