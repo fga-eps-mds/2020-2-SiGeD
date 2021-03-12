@@ -17,6 +17,17 @@ nav:
     - home.md
     - Gerenciamento de Riscos: risks.md
     - Equipe: team.md
+    - Lean Inception: 
+      - Introdução: leanInception/introduction.md
+      - Visão De Produto: leanInception/product_vision.md
+      - é - não é - faz - não faz: leanInception/is_isnot_do_donot.md
+      - Objetivo do Produto: leanInception/product_purpose.md
+      - Personas: leanInception/personas.md
+      - Jornada do Usuário: leanInception/user_journey.md
+      - BrainStorming: leanInception/brainstorming.md
+      - Revisão Técnica, de Negócio, de UX: leanInception/review.md
+      - Sequenciador: leanInception/sequencer.md
+      - Canvas MVP: leanInception/canvas.md
   - Comunidade: 
     - Guia de Contribuição: CONTRIBUTING.md
   - Sprints:
