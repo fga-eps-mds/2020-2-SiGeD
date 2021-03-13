@@ -14,7 +14,3 @@ assignees: ''
 ## Nessa issue deve ser feito:
 
 - task
-
-## Critérios de aceitação:
-
-- [ ] - critério
