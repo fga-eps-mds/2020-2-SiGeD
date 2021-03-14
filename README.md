@@ -7,8 +7,8 @@
 ## Por que usar o `NomeDoProjeto`?
 O `NomeDoProjeto` é o único software que permite uma melhor gestão dos serviços providos pela DPSS e prevenção de perda de dados, além de facilitar todo esse processo.  
 
-## Acesso
-O acesso a plataforma pode ser feito por meio da url `EndereçoDaPlataforma`, porém o uso é restrito aos funcionários da DPSS e àqueles que atuam em aréas relacionadas aos atendimentos.
+<!--## Acesso
+O acesso a plataforma pode ser feito por meio da url `EndereçoDaPlataforma`, porém o uso é restrito aos funcionários da DPSS e àqueles que atuam em aréas relacionadas aos atendimentos.-->
 
 ## Contribuir
 Gostaria de contribuir com nosso projeto? Acesse o nosso [guia de contribuição](docs/CONTRIBUTING.md) onde são explicados todos os passos.
