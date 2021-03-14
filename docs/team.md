@@ -3,7 +3,7 @@
 ## EPS
 
 | Nome | Matrícula | GitHub | Papel |
-| :--: | :--: | :--: | : --: |
+| :--: | :--: | :--: | :--: |
 | Vitor Leal | 160148375 |	vitorl-s| Scrum Master |
 |Gabriel Carvalho | 160120918 |	Gabrieloak | Arquiteto |
 |Ezequiel de Oliveira | 160119316 |	EzequielDeOliveira | PO |
