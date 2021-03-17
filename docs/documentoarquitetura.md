@@ -1,6 +1,7 @@
 <h1 style='text-align: center;'>Documento de Arquitetura</h1>
 
-### Sumario
+### Sumário
+
 [Introdução](#introducao)
 
 [Representação da Arquitetura](#arquitetura)
@@ -37,13 +38,13 @@ O diagrama representa a divisão da aplicação em microsserviços de usuário, 
 #### **REACT**
 A aplicação web utiliza no front-end o framework React. A divisão é feita em *Pages*, *Services*, *Components* e *Constants*
 
-> Pages: armazena as telas do website.
+* Pages: armazena as telas do website.
 
-> Services: 
+* Services: 
 
-> Components: reúne os componentes utilizados nas telas da aplicação, como botões e a navbar.
+* Components: reúne os componentes utilizados nas telas da aplicação, como botões e a navbar.
 
-> Constants: armazena os códigos das cores utilizadas. 
+* Constants: armazena os códigos das cores utilizadas. 
 #### **MICROSSERVIÇOS**
 
 
@@ -61,17 +62,20 @@ Restrições:
 - **MongoDB**: banco de dados não relacional
 
 <a name="visao_implementacao"></a><h2> 4. Visão de Implementação</h2>
+
 ### Modelagem de dados
-![Diagrama de pacotes-1](assets/img/diagrama_pacotes_e_dados-Page-3.png)
+
+![Modelagem de dados](assets/img/diagrama_dados.png)
+
 ### Diagrama de pacotes
 
-#### **A) Frontend**
+#### **a) Frontend**
 
-![Modelagem de dados](assets/img/diagrama_pacotes_e_dados-Page-1.png)
+![Diagrama de pacotes-1](assets/img/diagrama_pacotes_front.png)
 
-#### **B) Backend**
+#### **b) Backend**
 
-![Diagrama de pacotes-2](assets/img/diagrama_pacotes_e_dados-Page-2.png)
+![Diagrama de pacotes-2](assets/img/diagrama_pacotes_back.png)
 
 ## 5. Bibliografia
 
