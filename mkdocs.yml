@@ -11,10 +11,14 @@ extra_javascript:
   - assets/js/jquery.zoom.min.js
   - assets/js/extra.js
 
+extra_css:
+  - assets/css/docs.css
+
 nav:
   - Home: index.html
   - Documentação:
     - home.md
+    - Identidade Visual: visual_identity.md
     - Gerenciamento de Riscos: risks.md
     - Equipe: team.md
     - Lean Inception: 
