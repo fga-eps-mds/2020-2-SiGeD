@@ -20,7 +20,7 @@ Definir diferentes tipos de usuário que terão acesso ou algum tipo de contato 
 
 
 #### Histórias de usuário
-![Epico](./assets/img/backlog/epics/tipos_de_usuario.png)
+![Epico](./assets/img/backlog/epics/tipos_usuario.png)
 
 
 
@@ -53,7 +53,7 @@ Restringir visualização de dados no sistema, de acordo com cargo, setor e do n
 
 
 #### Histórias de usuário
-![Epico](./assets/img/backlog/epics/restricao_usuario.png)
+![Epico](./assets/img/backlog/epics/restricao_usuarios.png)
 
 ### Épico: Histórico de demandas
 
@@ -78,22 +78,22 @@ Realização das estatísticas de tipo de demanda e estatísticas gerais relacio
 
 
 #### Histórias de usuário
-![Epico](./assets/img/backlog/epics/estatisticas.png)
+![Epico](./assets/img/backlog/epics/estatisticas_diarias.png)
 
 ### Épico: Histórico de alteração
 
-Listagem de quem fez uma alteração, seja em perfil de algum cliente, ou em  alguma demanda. além de mostrar qual a alteração que foi feita, e por quem foi feita.
+Listagem de quem fez uma alteração, seja em perfil de algum cliente, ou em  alguma demanda, além de mostrar qual a alteração que foi feita, e por quem foi realizada.
 
 #### Funcionalidades do Lean Inception
 ![Lean Inception](./assets/img/backlog/mural/historico_alteracao.png)
 
 
 #### Histórias de usuário
-![Epico](./assets/img/backlog/epics/historico_alteracao.png)
+![Epico](./assets/img/backlog/epics/historico_alteracoes.png)
 
 ### Épico: Prontuário
 
-Listar todas as demandas relacionadas com um cliente específico, considerando a disponibilização de filtragem da lista de demandas.
+Listar todas as demandas relacionadas a um cliente específico, considerando a disponibilização de filtragem da lista de demandas.
 
 #### Funcionalidades do Lean Inception
 ![Lean Inception](./assets/img/backlog/mural/prontuario.png)
@@ -104,7 +104,7 @@ Listar todas as demandas relacionadas com um cliente específico, considerando a
 
 ### Épico: Recuperar senha
 
-Disponibilização da possibilidade de recuperação de senha para um usuário do sistema.
+Possibilidade de recuperação de senha para um usuário do sistema.
 
 #### Funcionalidades do Lean Inception
 ![Lean Inception](./assets/img/backlog/mural/recuperar_senha.png)
@@ -127,7 +127,7 @@ Notificações ao usuário, relacionadas a chegada de demanda para este usuário
 
 ### Épico: Alertas de consultas
 
-Notificação para o cliente, relacionada a dias de consulta, ou quando a data da consulta estiver próxima.
+Notificação para o cliente, relacionada a dias de consulta e quando a data da consulta estiver próxima.
 
 #### Funcionalidades do Lean Inception
 ![Lean Inception](./assets/img/backlog/mural/consultas.png)
@@ -146,3 +146,16 @@ Possibilitar o anexo de arquivos para demandas com fins comprobatórios ou para 
 
 #### Histórias de usuário
 ![Epico](./assets/img/backlog/epics/anexos.png)
+
+
+#### Pontuação
+
+As histórias foram pontuadas previamente para estimar o valor do produto. Os valores obtidos nessa pontuação preliminar do backlog podem ser alterados, pois cada história será revista/repontuada nas reuniões de planejamento da sprint.
+
+Dessa forma podemos estimar as pontuações a serem entregues em cada Release do projeto.
+
+Release   | Pontuação
+--------- | ------
+Release 1 | 113
+Release 2 | 139
+Total     | 252
