@@ -24,7 +24,8 @@ Nesse documento de arquitetura, é feita uma descrição dos termos arquiteturai
 
 ### Diagrama de relações
 ![Diagrama de relações](assets/img/diagrama_de_arquitetura.png)
-O diagrama representa a divisão da aplicação em microsserviços de usuário, clientes e demandas e suas correlações
+
+O diagrama representa a divisão da aplicação em microsserviços de usuário, clientes e demandas e suas correlações.
 
 
 ### Diagrama React/Microsserviços
