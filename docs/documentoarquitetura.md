@@ -11,7 +11,7 @@
 
 [Visão de Implementação](#visao_implementacao)
 
-<a name="introducao"></a><h2>1.Introdução</h2>
+<a name="introducao"></a><h2>1. Introdução</h2>
 
 ### Finalidade:
 
