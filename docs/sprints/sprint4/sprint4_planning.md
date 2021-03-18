@@ -46,5 +46,3 @@ as frentes de trabalho.
 |[Protótipo telas sprint4 ]("https://github.com/fga-eps-mds/2020-2-G4/issues/68")|5|Gabriel,Ezequiel,Vitor,Gabriela|
 
 - Obs: ***Adicionar documentação de gerenciamento de riscos na wiki*** trata-se de um débito técnico da sprint 3
-
-
