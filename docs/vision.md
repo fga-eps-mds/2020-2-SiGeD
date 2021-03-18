@@ -4,11 +4,11 @@
 
 Este documento tem o propósito de apresentar de forma geral e clara, o objetivo do projeto, algumas definições e formas de resolver os problemas propostos.
 
-### 1.1 Propósito
+### 1.1. Propósito
 
 O projeto tem o intuito de auxiliar no trabalho da DPSS. Na data de escrita deste documento, as demandas que chegam para a DPSS são todas processadas e acompanhadas usando planilhas ou outros meios que facilitam o erro humano e podem atrasar o trabalho a ser feito, por isso o intuito é facilitar e agilizar esse processo de trabalho da DPSS.
 
-### 1.2 Escopo
+### 1.2. Escopo
 
 O escopo do projeto está associado a necessidade da DPSS em armazenar dados e acompanhar servidores que necessitam de algum serviço oferecido pela DPSS, sem a necessidade de vasculhar planilhas ou pastas todos os dias para dar sequência a uma demanda que chegue até a DPSS.
 
@@ -101,22 +101,22 @@ Cliente não precisa reenviar os dados       | Os dados estão salvos com rápid
 
 ## 5. Recursos do Produto
 
-### 5.1 **Controle de dados do cliente**
+### 5.1. Controle de dados do cliente
 É uma das principais funções da aplicação, o usuário pode cadastrar o cliente no site e acessar os dados cadastrados. 
 
-### 5.2 **Histórico de Processos e Pacientes**
+### 5.2. Histórico de Processos e Pacientes
 Essa funcionalidade permite ao usuário um controle mais amplo dos clientes para elaborar estatísticas e confirmar eventos posteriormente.
 
-### 5.3 **Anexo Documentos**
+### 5.3. Anexo Documentos
 Anexar documentos ao realizar um agendamento é essencial para o desenvolvimento do projeto. Uma vez que estamos substituindo o papel por telas digitais, precisamos anexar arquivos no envio de documentos.
 
-### 5.4 **Estatísticas dos Atendimentos**
+### 5.4. Estatísticas dos Atendimentos
 As estatísticas de atendimentos são necessárias para o relatório de informações a respeito dos agendamentos. Esse relatório é de responsabilidade da DPSS para avaliar as condições dos clientes.
 
-### 5.5 **Filtragem de solicitações**
+### 5.5. Filtragem de solicitações
 A filtragem de solicitações é um mecanismo de busca para facilitar o acesso de informações feitas pelo usuário.
 
-### 5.6 **Cadastro de Agendamentos/Solicitações**
+### 5.6. Cadastro de Agendamentos/Solicitações
 O usuário pode cadastrar agendamentos e solicitações pelo site e evitando o uso de papel e padronizando o serviço da DPSS.
 
 ## 6. Restrições
