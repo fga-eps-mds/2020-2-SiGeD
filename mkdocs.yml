@@ -33,6 +33,9 @@ nav:
       - Revisão Técnica, de Negócio, de UX: leanInception/review.md
       - Sequenciador: leanInception/sequencer.md
       - Canvas MVP: leanInception/canvas.md
+    - Gerenciamento de Riscos: risks.md
+    - Documento de Visão: vision.md
+    - Equipe: team.md
   - Comunidade: 
     - Guia de Contribuição: CONTRIBUTING.md
   - Sprints:
