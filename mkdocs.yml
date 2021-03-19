@@ -36,6 +36,10 @@ nav:
       - Revisão Técnica, de Negócio, de UX: leanInception/review.md
       - Sequenciador: leanInception/sequencer.md
       - Canvas MVP: leanInception/canvas.md
+<<<<<<< HEAD
+=======
+    - Backlog do Projeto: backlog.md
+>>>>>>> 971c4d1... [84] put document on mkdocs
     - Gerenciamento de Riscos: risks.md
     - Documento de Visão: vision.md
     - Equipe: team.md
