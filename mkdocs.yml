@@ -24,6 +24,7 @@ nav:
     - Gerenciamento de Riscos: risks.md
     - Equipe: team.md
     - Documento de Arquitetura: architecturedocument.md
+    - EVM: evm.md
     - Lean Inception: 
       - Introdução: leanInception/introduction.md
       - Visão De Produto: leanInception/product_vision.md

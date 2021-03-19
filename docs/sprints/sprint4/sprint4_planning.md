@@ -40,9 +40,10 @@ as frentes de trabalho.
 |[Pesquisar sobre o SonarQube]("https://github.com/fga-eps-mds/2020-2-G4/issues/69")|3|Gabriela|
 |[CRUD de categorias no backend]("https://github.com/fga-eps-mds/2020-2-G4/issues/63")|3|Lucas, Thiago|
 |[Adicionar documentação de gerenciamento de riscos na wiki]("https://github.com/fga-eps-mds/2020-2-G4/issues/43")|5|Vitor, Gabriela|
+|[Lista de usuário]("https://github.com/fga-eps-mds/2020-2-G4/issues/51")|3|Victor, Dafne|
 |[CRUD de clientes no frontend]("https://github.com/fga-eps-mds/2020-2-G4/issues/64")|5|João, Victor|
 |[CRUD de clientes no backend]("https://github.com/fga-eps-mds/2020-2-G4/issues/62")|5|João, Victor|
 |[CRUD de categorias no frontend]("https://github.com/fga-eps-mds/2020-2-G4/issues/65")|5|Lucas, Thiago|
 |[Protótipo telas sprint4 ]("https://github.com/fga-eps-mds/2020-2-G4/issues/68")|5|Gabriel,Ezequiel,Vitor,Gabriela|
 
-- Obs: ***Adicionar documentação de gerenciamento de riscos na wiki*** trata-se de um débito técnico da sprint 3
+- Obs: ***Lista de usuário*** ***Adicionar documentação de gerenciamento de riscos na wiki*** tratam-se de débitos técnico da sprint 3
