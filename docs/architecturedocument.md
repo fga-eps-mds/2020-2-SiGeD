@@ -23,8 +23,6 @@ O *nomedoproduto* consiste em uma aplicação web que visa facilitar a gerência
 
 Nesse documento de arquitetura, é feita uma descrição dos termos arquiteturais utilizados no desenvolvimento desse produto de software.
 
-### Referências:
-
 <a name="arquitetura"></a><h2>2. Representação da Arquitetura</h2>
 
 ### Diagrama de relações
@@ -40,12 +38,16 @@ A aplicação web utiliza no front-end o framework React. A divisão é feita em
 
 * Pages: armazena as telas do website.
 
-* Services: 
+* Services: local onde são realizadas as comunicações com a API.
 
 * Components: reúne os componentes utilizados nas telas da aplicação, como botões e a navbar.
 
 * Constants: armazena os códigos das cores utilizadas. 
+
 #### **MICROSSERVIÇOS**
+Dada a alta escalabilidade dos microsserviços, foram definidos três para essa aplicação, sendo eles o de usuários, responsável pela autenticação, o de demandas e o de clientes. O padrão JWT foi utilizado para fazer essa autenticação, portanto, um token é gerado no microsserviço de usuários e salvo na aplicação. Uma vez que haja um token válido, é possível fazer requisições em todos os microsserviços utilizando-o. 
+
+Para o controle e armazenamento dos dados, foi empregado o banco de dados não relacional MongoDB. Cada microsserviço possui um banco de dados específico e a manipulção e visualização desses dados no website conta com o auxílio do NodeJS e do ExpressJS.
 
 
 <a name="metas"></a><h2>3. Metas e Restrições de Arquitetura</h2>
