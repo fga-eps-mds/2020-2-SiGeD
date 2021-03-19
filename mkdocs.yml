@@ -23,6 +23,7 @@ nav:
     - Backlog do Projeto: backlog.md
     - Gerenciamento de Riscos: risks.md
     - Equipe: team.md
+    - Documento de Arquitetura: architecturedocument.md
     - Lean Inception: 
       - Introdução: leanInception/introduction.md
       - Visão De Produto: leanInception/product_vision.md
@@ -34,9 +35,9 @@ nav:
       - Revisão Técnica, de Negócio, de UX: leanInception/review.md
       - Sequenciador: leanInception/sequencer.md
       - Canvas MVP: leanInception/canvas.md
-    - Gerenciamento de Riscos: risks.md
-    - Documento de Visão: vision.md
-    - Equipe: team.md
+      - Gerenciamento de Riscos: risks.md
+      - Documento de Visão: vision.md
+      - Equipe: team.md
   - Comunidade: 
     - Guia de Contribuição: CONTRIBUTING.md
   - Sprints:
