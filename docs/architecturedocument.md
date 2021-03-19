@@ -81,12 +81,12 @@ Restrições:
 
 ## 5. Bibliografia
 
-[Policia Civil do Estado de Goiás](https://www.policiacivil.go.gov.br/cpss)
+[Policia Civil do Estado de Goiás](https://www.policiacivil.go.gov.br/cpss), Acesso em: 19/03/2021, 11:14, Horário de Brasília.
 
-[Documentação MongoDB](https://docs.mongodb.com/cloud/)
+[MongoDB](https://docs.mongodb.com/cloud/), Acesso em: 19/03/2021, 11:14, Horário de Brasília.
 
-[Documentação ReactJS](https://pt-br.reactjs.org/docs/getting-started.html)
+[ReactJS](https://pt-br.reactjs.org/docs/getting-started.html), Acesso em: 19/03/2021, 11:14, Horário de Brasília.
 
-[Documentação NodeJS](https://nodejs.org/en/docs/)
+[NodeJS](https://nodejs.org/en/docs/), Acesso em: 19/03/2021, 11:14, Horário de Brasília.
 
-[Documentação Express](http://expressjs.com/pt-br/guide/routing.html)
+[Express](http://expressjs.com/pt-br/guide/routing.html), Acesso em: 19/03/2021, 11:15, Horário de Brasília.
