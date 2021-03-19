@@ -62,7 +62,7 @@ O papel de Analista de Dados foi dividido entre os membros de EPS, [Vitor Leal](
 
 ### Desenvolvedores
 
-Os desenvolvedores do projeto são os membros de MDS do time, [Davi Marinho](), [João Pedro Chaves](), [Thiago França](), [Lucas da Cunha](), [Dafne Moretti]() e [Victor Yukio]().
+Os desenvolvedores do projeto são os membros de MDS do time, [Davi Marinho](https://github.com/DaviMarinho), [João Pedro Chaves](https://github.com/JPedroCh), [Thiago França](https://github.com/Thiagof99), [Lucas da Cunha](https://github.com/nYCSTs), [Dafne Moretti](https://github.com/DafneM) e [Victor Yukio](https://github.com/yukioz).
 
 ## Ritos adotados
 
