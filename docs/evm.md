@@ -15,7 +15,7 @@ Levando em consideração o notebook com um processador intel core i7, 8GB de me
 Para calcular o custo da mão de obra do projeto, usamos de base os valores do relatório de gestão da UnB de 2016, divulgado pelo Decanato de Planejamento e Orçamento da UnB, obtemos os valor do custo de um aluno do campus da UnB FGA, é de R$ 26.040,00 ao ano. com esse valor podemos chegar ao custo por hora de um aluno por etapas:
 
 * O custo de um aluno por semestre na FGA com base no valor anual  é de R$ (26.040,00/12) x 4 meses, que equivale a R$ 8.680,00.
-* Com base no cronograma da disciplina de Engenharia de Produto de Software, no semestre 2020-1 o semestre possui 16 sprints, por tanto o custo por sprint (8.680,00/ 16 sprints) equivale a  R$ 542,50 por sprint.
+* Com base no cronograma da disciplina de Engenharia de Produto de Software, no semestre 2020-2 o semestre possui 16 sprints, por tanto o custo por sprint (8.680,00/ 16 sprints) equivale a R$ 542,50 por sprint.
 
 |Número de Alunos| Custo por total por sprint | Custo total para 16 sprints | 
 |:---:|:------------:|:-------------------:|
