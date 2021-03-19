@@ -18,6 +18,7 @@ nav:
   - Home: index.html
   - Documentação:
     - home.md
+    - Metodologia: methodology.md
     - Identidade Visual: visual_identity.md
     - Protótipo: prototype.md
     - Backlog do Projeto: backlog.md
