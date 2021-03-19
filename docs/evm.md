@@ -9,19 +9,17 @@ Levando em consideração o notebook com um processador intel core i7, 8GB de me
 |Item a ser adquirido|Finalidade|Valor(R$)|Quantidade|Total(R$)|Fornecedor|
 |:------------------:|:--------:|:-------:|:--------:|:-------:|:--------:|
 |Notebook            |Desenvolvimento e planejamento|Média R$ 4.499,00|10|R$ 44.990,00|Vários fornecedores|
+
 ## Pessoal 
 
-Para calcular o custo da mão de obra do projeto, usamos de base os valores médios para cada posição do grupo, consultados pelo site Glassdoor focando na média salarial de brasilia
+Para calcular o custo da mão de obra do projeto, usamos de base os valores do relatório de gestão da UnB de 2016, divulgado pelo Decanato de Planejamento e Orçamento da UnB, obtemos os valor do custo de um aluno do campus da UnB FGA, é de R$ 26.040,00 ao ano. com esse valor podemos chegar ao custo por hora de um aluno por etapas:
 
-Considerando a média salarial encontrada sendo mensal, como temos 16 sprints, ou 4 meses de projeto, devemos multiplicar os custos mensais por 4
+* O custo de um aluno por semestre na FGA com base no valor anual  é de R$ (26.040,00/12) x 4 meses, que equivale a R$ 8.680,00.
+* Com base no cronograma da disciplina de Engenharia de Produto de Software, no semestre 2020-1 o semestre possui 16 sprints, por tanto o custo por sprint (8.680,00/ 16 sprints) equivale a  R$ 542,50 por sprint.
 
-|Cargo|Número de integrantes|Média salarial|Total|
-|:---:|:------------:|:-------------------:|:---:|
-|Desenvolvedor júnior|6|R$ 2.772 | R$ 66.528 |
-|Devops|1|R$ 11.000 | R$ 44.000 |
-|Arquiteto de software|1|R$ 12.000 | R$ 48.000 |
-|Product Owner|1|R$ 7.614 | R$ 30.456|
-|Scrum Master|1|R$ 7.804 | R$ 31.216 |
+|Número de Alunos| Custo por total por sprint | Custo total para 16 sprints | 
+|:---:|:------------:|:-------------------:|
+|10| R$ 5.425 | R$ 86.800,00 |
 
 
 ## Ferramentas
@@ -39,15 +37,13 @@ Considerando a média salarial encontrada sendo mensal, como temos 16 sprints, o
 
 |Tipo de insumo|Custo|
 |:------------:|:---:|
-|Recursos humanos| R$ 220.200|
-|Equipamentos e serviços| R$ 44.990|  
-|Ferramentas| R$ 0|  
-|Total|R$ 265.190|  
+|Recursos humanos| R$ 86.800,00,00|
+|Equipamentos e serviços| R$ 44.990,00|  
+|Ferramentas| R$ 0,00|  
+|Total|R$ 131.790,00|  
 
 ## Referências
 
-Glassdoor, Site para a busca da média salarial, Disponível em: https://www.glassdoor.com.br/Sal%C3%A1rios/index.htm. Acesso em 18 de março de 2021.
+Relatório de Gestão 2016, Universidade de Brasília. Disponível em http://www.dpo.unb.br/index.php?option=com_phocadownload&view=category&download=558:relatorio-2016&id=1:relatorio-de-gestao&Itemid=675. Acesso em 18 de março de 2021.
 
 Zoom, Site para comparação de preços, Disponível em: https://www.zoom.com.br/. Acesso em 18 de março de 2021.
-
-Documentação Dr. Down, 2021. Página do Termo de Abertura do Projeto no GitHub Pages. Disponível em: https://fga-eps-mds.github.io/2018.1-Dr-Down/eps/TAP/. Acesso em 18 de março de 2021.
