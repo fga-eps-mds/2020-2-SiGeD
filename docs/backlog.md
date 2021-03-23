@@ -127,7 +127,7 @@ Notificações ao usuário, relacionadas a chegada de demanda para este usuário
 #### Histórias de usuário
 ![Epico](./assets/img/backlog/epics/alerta_acompanhamento.png)
 
-### Épico: Alertas de consultas
+### Épico: [Alertas de consultas](https://github.com/fga-eps-mds/2020-2-G4/issues/136)
 
 Notificação para o cliente, relacionada a dias de consulta e quando a data da consulta estiver próxima.
 
