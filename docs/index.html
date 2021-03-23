@@ -6,32 +6,107 @@
     <title>Grupo 4</title>
     <link rel="stylesheet" href="./assets/css/landing_page.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
   </head>
 
   <body>
-    <div class="container">
+    
+    <div class="navbar">
+      <div class="nav-links">
+        <a href="http://github.com/fga-eps-mds/2020-2-G4" title="Repositórios">
+          <img src="assets/img/github-brands.svg" color="#FFFFFF" alt="Repositórios" height="20px" width="20px">
+        </a>
+        <a href="/home" title="Documentação">
+          <img src="assets/img/docs-light.svg" alt="Documentação" height="20px" width="20px">
+        </a>
+      </div>
+    </div>
+
+    <div class="page">
+
+    
+    
       <div class="page-top">
-        <img class="top-image" src="assets/img/building_website.svg" alt="logo">
-        <h1>Site em construção</h1>
-        <p class="description">Projeto de EPS e MDS do Grupo 4. Em breve com mais informações.</p>
+        <h1 class="title">Projeto de EPS e MDS do Grupo 4</h1>
+        <p class="description">Projeto feito em parceria com a DPSS da Polícia Civíl do Estado de Goiás</p>
+      </div>
+      
+      <div class="container">
+
+        <div class="side-by-side">
+          <div class="text-part">
+            <h2>O que é o projeto?</h2>
+              <p>
+                O projeto é um sistema de controle de demandas para melhor atendimento dos clientes da DPSS (Divisão de Proteção à Saúde do Servidor) da Polícia Civíl do Estado de Goiás.
+              </p>
+              <p>
+                Com esse sistema de controle de demandas a DPSS terá um maior controle de todos os clientes atendidos, pelo armazenando dados, histórico, além de uma visualização das estatísticas dos atendimentos feitos.
+              </p>
+          </div>
+          <img class="img-part" src="assets/img/prototipo/home.png"/>
+        </div>
+
+        <div class="side-by-side">
+          <img class="img-part" src="assets/img/prototipo/profile.png"/>
+          <div class="text-part">
+            <h2>Prontuário do cliente</h2>
+              <p>
+                Nesse sistema será possível a visualização das demandas de cada cliente, tendo assim o seu prontuário completo, podendo adicionar novas demandas a ele.
+              </p>
+              <p>
+                Cada demanda cadastrada pode pertencer a uma categoria, facilitando assim a visualização das demandas e possibilitando outras formas de filtragem.
+              </p>
+          </div>
+        </div>
+
+        <div class="side-by-side">
+          <div class="text-part">
+            <h2>A Demanda</h2>
+            <p>
+              A demanda possuirá um cadastro simples de título e descrição associada a um cliente que foi atendido.
+            </p>
+            <p>
+              Depois de criada será possível atualiza-la com novas informações e transferi-la de um setor para o outro, mantendo sempre um histórico de onde a demanda percorreu.
+            </p>
+            <p>
+              Além de possuir também um sistema de alertas para o usuário lembrar de possíveis acompanhamentos a serem feitos com o cliente.
+            </p>
+          </div>
+          <img class="img-part" src="assets/img/prototipo/demanda.png"/>
+        </div>
+
+        <div class="side-by-side">
+          <img class="img-mobile-part" src="assets/img/prototipo/demanda-mobile.png"/>
+          <img class="img-mobile-part" src="assets/img/prototipo/nova-demanda-mobile.png"/>
+          <img class="img-mobile-part" src="assets/img/prototipo/profile-mobile.png"/>
+          <img class="img-mobile-part" src="assets/img/prototipo/demandas-mobile.png"/>
+          <div class="text-part">
+            <h2>Acesso mobile</h2>
+            <p>
+              Todas as telas foram pensadas e planejadas para atender o cliente de todas as formas, seja acessando pelo computador ou celular.
+            </p>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <div class="card-button" onclick="location.href='home';">
+            <img class="button-icon" src="assets/img/docs.svg" alt="Documentação">
+            <p>Acesse a documentação do projeto</p>
+          </div>
+          <div class="card-button" onclick="location.href='https://github.com/fga-eps-mds/2020-2-g4';">
+            <img class="button-icon" src="assets/img/github.png" alt="Documentação">
+            <p>Veja o Repositório</p>
+          </div>
+        </div>
+
+        <div class="team">
+          <h2 class="team-title">Equipe</h2>
+          <div id="teamMembers">
+        </div>
       </div>
 
-      <div>
-        <div class="card-button" onclick="location.href='home';">
-          <img class="button-icon" src="assets/img/docs.svg" alt="Documentação">
-          <p>Acessar documentação do projeto</p>
-        </div>
-        <div class="card-button" onclick="location.href='https://github.com/fga-eps-mds/2020-2-g4';">
-          <img class="button-icon" src="assets/img/github.png" alt="Documentação">
-          <p>Repositório do projeto</p>
-        </div>
-      </div>
-
-      <div class="team">
-        <h2 class="team-title">Equipe</h2>
-        <div id="teamMembers">
-      </div>
     </div>
 
     <footer>

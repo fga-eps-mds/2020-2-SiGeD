@@ -17,7 +17,7 @@ extra_css:
 nav:
   - Home: index.html
   - Documentação:
-    - home.md
+    - Home: home.md
     - Metodologia: methodology.md
     - Identidade Visual: visual_identity.md
     - Protótipo: prototype.md

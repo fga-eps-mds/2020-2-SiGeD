@@ -2,4 +2,12 @@
   --md-primary-fg-color:        #1F3541;
   --md-primary-fg-color--light: #5289B5;
   --md-primary-fg-color--dark:  #000000;
+
+}
+
+.md-content__inner:any-link{
+  color: #5289B5 !important;
+}
+.md-content__inner:any-link:hover{
+  color: #5289B5;
 }
