@@ -6,7 +6,7 @@ Durante a Lean Inception, foi feito um brainstorming com os PO's do projeto sobr
 
 O backlog foi feito agrupando funcionalidades relacionadas, criado Épicos, cada Épico foi dividido em várias histórias de usuário.
 
-Para a priorização das histórias de usuário, foi utilizada a técninca MoScoW.
+Para a priorização das histórias de usuário, foi utilizada a técnica MoScoW.
 
 ## Backlog
 
