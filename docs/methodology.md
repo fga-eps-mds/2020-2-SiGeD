@@ -90,6 +90,10 @@ O trabalho da equipe é feito exclusivamente online, à distancia, devido a quar
 
 Os repositórios do projeto estão todos na organização da disciplina no GitHub. Nesses repositórios é feita a comunicação através de issues.
 
+### Zenhub
+
+O Zenhub é a ferramenta utilizada para o Kanban do projeto. Com ele podemos visualizar o gitflow e ter o acompanhamento do estado de cada tarefa que está sendo realizada.
+
 ### Discord
 
 O Discord é uma das maiores ferramentas de comunicação do time. Foi criado um servidor somente para a interação da equipe, utilizado para reuniões e pareamentos, também foi instaciado um webhook, para receber notificações do GitHub.
