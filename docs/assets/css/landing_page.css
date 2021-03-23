@@ -5,10 +5,22 @@
   padding: 50px;
 }
 
+.page{
+  margin-top: 30px;
+}
+
 .page-top{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #1F3541;
+}
+
+.title{
+  font-size: 80px;
+  color: #FFFFFF;
+  padding: 50px;
+  text-align: center;
 }
 
 .top-image{
@@ -17,13 +29,14 @@
 }
 .description{
   margin-bottom: 20px;
+  color: #FFFFFF;
 }
 
 .card-button{
   align-items: flex-start;
   align-items: center;
   display: flex;
-  border: solid 2px black;
+  border: solid 2px #1F3541;
   border-radius: 10px;
   padding: 5px;
   margin-top: 20px;
@@ -41,16 +54,17 @@
 
 .footer-title{
   color: white;
+  font-size: 24px;
 }
 
-p, a, h1 {
-  font-family: 'Raleway';
+p, a, h1, h2 {
+  font-family: 'Montserrat';
   color: inherit;
 }
 
 body{
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: #F6F6F6;
 
 }
 
@@ -90,19 +104,19 @@ body{
 }
 
 .name {
-  color: black;
+  color: #1F3541;
   font-size: 16px;
   padding: 16px 32px;
-  font-family: 'Raleway';
+  font-family: 'Montserrat';
   text-align: center;
 
 }
 
 .role {
-  color: black;
+  color: #1F3541;
   font-size: 16px;
   padding: 16px 32px;
-  font-family: 'Raleway';
+  font-family: 'Montserrat';
   font-weight: bold;
   text-align: center;
 }
@@ -120,7 +134,7 @@ body{
 }
 
 .team-title{
-  font-family: 'Raleway';
+  font-family: 'Montserrat';
   text-align: center;
 }
 
@@ -129,7 +143,52 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: #1F3541;
   color: white;
   text-align: center;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #1F3541;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  /* display: block; */
+  color: #f6f6f6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-links{
+  float: right;
+}
+
+.text-part{
+  width: 45%;
+  font-size: 20px;
+}
+
+.img-part{
+  width: 35vw
+}
+
+.img-mobile-part{
+  width: 10vw
+}
+
+.side-by-side{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons {
+  margin-top: 50px;
 }
