@@ -9,13 +9,13 @@
 
 ## Tamanho da Sprint
 
-- Início: 05/02/2021
+- Início: 02/02/2021
 - Término: 12/02/2021
-- Duração: 7 dias
+- Duração: 11 dias
 
 ## Pareamentos
 
-- Os pareamentos tiveram muito foco nos treinamentos, onde cada membro do time de EPS ficou responsável por dar treinamento em uma tecnológia que será utilizada no projeto
+- Os pareamentos tiveram muito foco nos treinamentos, onde cada membro do time de EPS ficou responsável por dar treinamento em uma tecnologia que será utilizada no projeto
 
 ## Sprint Backlog
 
