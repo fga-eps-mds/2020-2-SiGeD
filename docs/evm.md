@@ -15,7 +15,7 @@ Levando em consideração o notebook com um processador intel core i7, 8GB de me
 Para calcular o custo da mão de obra do projeto, usamos de base os valores do relatório de gestão da UnB de 2016, divulgado pelo Decanato de Planejamento e Orçamento da UnB, obtemos os valor do custo de um aluno do campus da UnB FGA, é de R$ 26.040,00 ao ano. com esse valor podemos chegar ao custo por hora de um aluno por etapas:
 
 * O custo de um aluno por semestre na FGA com base no valor anual  é de R$ (26.040,00/12) x 4 meses, que equivale a R$ 8.680,00.
-* Com base no cronograma da disciplina de Engenharia de Produto de Software, no semestre 2020-2 o semestre possui 16 sprints, por tanto o custo por sprint (8.680,00/ 16 sprints) equivale a R$ 542,50 por sprint.
+* Com base no cronograma da disciplina de Engenharia de Produto de Software, no semestre 2020-2 o semestre possui 16 sprints, por tanto o custo por sprint (8.680,00/ 16 sprints) equivale a R$ 542,50 por sprint para cada aluno.
 
 |Número de Alunos| Custo por total por sprint | Custo total para 16 sprints | 
 |:---:|:------------:|:-------------------:|
@@ -40,7 +40,15 @@ Para calcular o custo da mão de obra do projeto, usamos de base os valores do r
 |Recursos humanos| R$ 86.800,00,00|
 |Equipamentos e serviços| R$ 44.990,00|  
 |Ferramentas| R$ 0,00|  
-|Total|R$ 131.790,00|  
+|Total|R$ 131.790,00|
+
+## EVM Agile
+
+O EVM Agile possui particularidades em relação ao EVM tradicional, contendo métricas particulares à metodologia como histórias de usuário, sprints, pontos de histórias de usuário e etc.
+
+Para a elaboração de nossa EVM Agile, como as sprints 0 e 1 não possuiam histórias de usuário, não estão sendo contabilizadas na planilha.
+
+Para ter acesso a planilha, clique [aqui](https://docs.google.com/spreadsheets/d/1BeQMp6tplsHfuIUWcC5x4k6TzeLXBIrHd1GruboG2zg/edit#gid=1444792691).
 
 ## Referências
 
