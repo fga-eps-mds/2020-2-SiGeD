@@ -35,10 +35,8 @@ a dupla de MDS a produzir o documento. Além disso
 |[Criar Documentação de Planning da Sprint 5]("https://github.com/fga-eps-mds/2020-2-G4/issues/82")|2|Vitor|
 |[Documentação da metodologia]("https://github.com/fga-eps-mds/2020-2-G4/issues/79")|2|Vitor|
 |[Sonar Cloud]("https://github.com/fga-eps-mds/2020-2-G4/issues/78")|2|Gabriela|
-|[Dojo Context]("https://github.com/fga-eps-mds/2020-2-G4/issues/91")|2|Ezequiel|
 |[Componentização do Axios]("https://github.com/fga-eps-mds/2020-2-G4/issues/80")|2|Victor,Davi|
 |[Criar documento de Readme]("https://github.com/fga-eps-mds/2020-2-G4/issues/87")|2|João,Thiago|
-|[Dojo de Teste]("https://github.com/fga-eps-mds/2020-2-G4/issues/90")|3|Gabriel|
 |[Criar documento de Arquitetura]("https://github.com/fga-eps-mds/2020-2-G4/issues/81")|3|Gabriel,Dafne,Lucas|
 |[Criar documento de Visão]("https://github.com/fga-eps-mds/2020-2-G4/issues/84")|3|Ezequiel,Davi,Yukio|
 |[Identidade Visual]("https://github.com/fga-eps-mds/2020-2-G4/issues/92")|3|Gabriel,Gabriela|
