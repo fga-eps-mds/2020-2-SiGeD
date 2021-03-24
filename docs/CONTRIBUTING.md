@@ -103,11 +103,12 @@ Caso o PR seja feito em um dos repositórios de desenvolvimento, o link para a i
 Em casos de PRs em que ainda estão sendo desenvolvidos, deve ser acrescentado a sigla **WIP** antes do título do PR.
 
 Os PRs devem conter:
-- Um título conciso e descritivo;
-- Um *Assignee* responsável pelo PR;
-- Um *Reviewer* responsável pela revisão do PR;
-- *Labels* signaficativas;
-- Uma issue associada;
-- Uma descrição, seguindo o template do repositório, que deve incluir uma descrição completa do que foi feito e a issue relacionada.
+
+- Um título conciso e descritivo;  
+- Um *Assignee* responsável pelo PR;  
+- Um *Reviewer* responsável pela revisão do PR;  
+- *Labels* signaficativas;  
+- Uma issue associada;  
+- Uma descrição, seguindo o template do repositório, que deve incluir uma descrição completa do que foi feito e a issue relacionada.  
 
 Os PRs só serão aceitos após passarem pelo CI estabelecido e por uma revisão.
