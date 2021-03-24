@@ -65,6 +65,7 @@ nav:
     - Sprint 5:
       - Planning: sprints/sprint5/sprint5_planning.md
       - Retrospectiva: sprints/sprint5/sprint5_retrospect.md
+      - Review: sprints/sprint5/sprint5_review.md
   - Templates:
     - Planning: template_docs/template_planning.md
     - Review: template_docs/template_review.md
