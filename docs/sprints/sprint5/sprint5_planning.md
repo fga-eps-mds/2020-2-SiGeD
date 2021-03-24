@@ -23,7 +23,7 @@
 ## Pareamentos
 
 - Os pareamentos de documentação foram definidos de forma em que algum membro de EPS ficasse responsável por auxiliar 
-a dupla de MDS a produzir o documento. Além disso
+a dupla de MDS a produzir o documento.
 
 ## Sprint Backlog
 
