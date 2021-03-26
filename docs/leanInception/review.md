@@ -4,7 +4,7 @@ A etápa de brainstorming gera muitas funcionalidades, por isso precisamos anali
 
 para avaliarmos esses três fatores, utilizamos uma escala de um a três
 
-|Esforço|Negócio|Esforço|
+|Esforço|Negócio|Confiança|
 | - | - | - |
 |E|$|<3|
 |EE|$$|<3<3|
