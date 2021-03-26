@@ -1,4 +1,4 @@
-# Revisão Técnica, de Megócio e de UX
+# Revisão Técnica, de Negócio e de UX
 
 A etápa de brainstorming gera muitas funcionalidades, por isso precisamos analisar cada funcionalidade em termos de esforço **E**, valor de negócio **$** e confiança **<3**.
 
