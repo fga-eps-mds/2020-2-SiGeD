@@ -37,7 +37,7 @@ Para calcular o custo da mão de obra do projeto, usamos de base os valores do r
 
 |Tipo de insumo|Custo|
 |:------------:|:---:|
-|Recursos humanos| R$ 86.800,00,00|
+|Recursos humanos| R$ 86.800,00|
 |Equipamentos e serviços| R$ 44.990,00|  
 |Ferramentas| R$ 0,00|  
 |Total|R$ 131.790,00|
