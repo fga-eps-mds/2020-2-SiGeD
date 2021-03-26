@@ -53,7 +53,7 @@ Muito pequeno|Praticamente sem impactos ao projeto|1|
 Pequeno|Impacto pequeno ao projeto|2|
 Médio|Impacto que começa a apresentar algumas consequências ao projeto|3|
 Alto|Impacto que compromete o andamento saudável do projeto|4|
-Altíssimo|Impacto que inviabiliza o andamento do projeto caso não seja corrigido ou minimizad|5|
+Altíssimo|Impacto que inviabiliza o andamento do projeto caso não seja corrigido ou minimizado|5|
 
 ## Burndown de Riscos
 
