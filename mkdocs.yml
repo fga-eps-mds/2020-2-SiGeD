@@ -69,6 +69,8 @@ nav:
     - Sprint 6:
       - Planning: sprints/sprint6/sprint6_planning.md
       - Review: sprints/sprint6/sprint6_review.md
+    - Sprint 7:
+      - Planning: sprints/sprint7/sprint7_planning.md
   - Templates:
     - Planning: template_docs/template_planning.md
     - Review: template_docs/template_review.md

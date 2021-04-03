@@ -40,7 +40,7 @@
 |[Landing Page](https://github.com/fga-eps-mds/2020-2-G4/issues/116)|2|Gabriela|
 |[Padronizar idioma](https://github.com/fga-eps-mds/2020-2-G4/issues/115)|2|Davi,Thiago|
 |[Fix de usuários](https://github.com/fga-eps-mds/2020-2-G4/issues/120)|2|João, Dafne|
-|[Deploy](https://github.com/fga-eps-mds/2020-2-G4/issues/141)|2|Gabi, Gabriela|
+|[Deploy](https://github.com/fga-eps-mds/2020-2-G4/issues/141)|2|Gabriela|
 |[Ajustes dos botões](https://github.com/fga-eps-mds/2020-2-G4/issues/110)|3|João, Dafne|
 |[Melhoria nas mensagens de erro](https://github.com/fga-eps-mds/2020-2-G4/issues/117)|3|Lucas, Victor|
 |[Fix arquivos style](https://github.com/fga-eps-mds/2020-2-G4/issues/118)|2|João, Dafne|
