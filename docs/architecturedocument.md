@@ -50,6 +50,13 @@ Os microsserviços foram construídos utilizando Nodejs e o framework Express.js
 
 Dada a alta escalabilidade dos microsserviços, foram definidos quatro para essa aplicação, sendo eles o de usuários, responsável pela autenticação, o de demandas, clientes e de setores. O padrão JWT foi utilizado para fazer essa autenticação, portanto, um token é gerado no microsserviço de usuários e salvo na aplicação. Uma vez que haja um token válido, é possível fazer requisições em todos os microsserviços utilizando-o. 
 
+### **Diagrama Context API**
+
+A Context API é um recurso nativo do React que envolve toda a aplicação e, pode ser utilizado para fornecer estados globais para todos os elementos que necessitem dessa informação dentro da aplicação.
+
+Esse recurso foi utilizado na aplicação principalmente para armazenar e utilizar os dados do usuário logado. Abaixo, é possível ver uma representação de como funciona e em qual parte do projeto esse recurso é utilizado.
+
+![Diagrama Context](assets/img/diagrama_context.png)
 
 <a name="metas"></a><h2>3. Metas e Restrições de Arquitetura</h2>
 Metas:
