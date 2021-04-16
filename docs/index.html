@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Grupo 4</title>
+    <title>SiGeD</title>
     <link rel="stylesheet" href="./assets/css/landing_page.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,7 +29,7 @@
     
     
       <div class="page-top">
-        <h1 class="title">Projeto de EPS e MDS do Grupo 4</h1>
+        <h1 class="title">SiGeD</h1>
         <p class="description">Projeto feito em parceria com a DPSS da Polícia Civíl do Estado de Goiás</p>
       </div>
       
@@ -110,7 +110,7 @@
     </div>
 
     <footer>
-      <h1 class="footer-title">EPS/MDS - Grupo 4</h1>
+      <h1 class="footer-title">SiGeD - Sistema de Gerenciamento de Demandas</h1>
     </footer>
 
   </body>
@@ -135,7 +135,7 @@
         let data = await response.json()
         return data.avatar_url
       } else {
-        alert("HTTP-Error: " + response.status);
+        console.log("HTTP-Error: " + response.status);
       }
     }
 
@@ -145,7 +145,7 @@
         teamMembers.innerHTML += `
         <a href="https://github.com/${dev.user}/">
           <div class="img-container ">
-            <img src="${image}" alt="member" class="image">
+            <img src="${image}" alt="${dev.user}" class="image">
             <div class="middle">
               <div class="name">${dev.name}</div>
               <div class="role">${dev.role}</div>
