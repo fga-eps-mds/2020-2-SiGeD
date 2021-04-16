@@ -13,11 +13,11 @@ Caso reste duvidas você também pode entrar em contato conosco criando uma issu
 
 ## Ambiente
 O projeto é feito utilizando a arquitetura em microsserviços, portanto possui 5 repositórios, sendo um deles de documentação:
-- [Documentação](https://github.com/fga-eps-mds/2020-2-G4)
-- [Frontend](https://github.com/fga-eps-mds/2020-2-G4-Frontend)
-- [API de Clientes](https://github.com/fga-eps-mds/2020-2-G4-Clients)
-- [API de Usuários](https://github.com/fga-eps-mds/2020-2-G4-Users)
-- [API de Demandas](https://github.com/fga-eps-mds/2020-2-G4-Demands)
+- [Documentação](https://github.com/fga-eps-mds/2020-2-SiGeD)
+- [Frontend](https://github.com/fga-eps-mds/2020-2-SiGeD-Frontend)
+- [API de Clientes](https://github.com/fga-eps-mds/2020-2-SiGeD-Clients)
+- [API de Usuários](https://github.com/fga-eps-mds/2020-2-SiGeD-Users)
+- [API de Demandas](https://github.com/fga-eps-mds/2020-2-SiGeD-Demands)
 
 Para executar o projeto é preciso rodar os seguintes passos em todos os repositórios vinculados ao projeto:
 ### Usando Docker
@@ -32,9 +32,9 @@ GPL-3.0 License
 
 ## Documentação
 
-A documentação do projeto pode ser acessada pelo nosso site em https://fga-eps-mds.github.io/2020-2-G4/ ou você pode acessar pela [SiGeD Documentação](https://fga-eps-mds.github.io/2020-2-G4/home/)
+A documentação do projeto pode ser acessada pelo nosso site em https://fga-eps-mds.github.io/2020-2-SiGeD/ ou você pode acessar pela [SiGeD Documentação](https://fga-eps-mds.github.io/2020-2-SiGeD/home/)
 
 
 ## Colaboradores
- As informações dos [colaboradores](https://fga-eps-mds.github.io/2020-2-G4/team/) pode ser acessada na nossa página.
+ As informações dos [colaboradores](https://fga-eps-mds.github.io/2020-2-SiGeD/team/) pode ser acessada na nossa página.
 

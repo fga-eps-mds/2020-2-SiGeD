@@ -27,14 +27,14 @@
 
 |Issue|Pontos|Responsáveis|
 |--|--|--|
-|[Iniciar o projeto do backend](https://github.com/fga-eps-mds/2020-2-G4/issues/37)|1|Gabriel|
-|[Iniciar projeto do frontend](https://github.com/fga-eps-mds/2020-2-G4/issues/31)|1|Ezequiel|
-|[Dojo de docker](https://github.com/fga-eps-mds/2020-2-G4/issues/28)|2|Gabriela|
-|[Dockerizar o frontend](https://github.com/fga-eps-mds/2020-2-G4/issues/35)|2|Ezequiel|
-|[Dockerizar o backend](https://github.com/fga-eps-mds/2020-2-G4/issues/29)|3|Gabriela|
-|[Criar Documentação de Planning da Sprint 2](https://github.com/fga-eps-mds/2020-2-G4/issues/30)|3|Vitor|
-|[Criar Documentação de Review da Sprint 2](https://github.com/fga-eps-mds/2020-2-G4/issues/33)|3|Vitor|
-|[Tela de login do usuário](https://github.com/fga-eps-mds/2020-2-G4/issues/36)|3|Dafne e Davi|
-|[Tela de cadastro de usuario](https://github.com/fga-eps-mds/2020-2-G4/issues/32)|5|Victor e João Pedro|
-|[CRUD de usuários no backend](https://github.com/fga-eps-mds/2020-2-G4/issues/27)|5|Lucas e Thiago|
+|[Iniciar o projeto do backend](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/37)|1|Gabriel|
+|[Iniciar projeto do frontend](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/31)|1|Ezequiel|
+|[Dojo de docker](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/28)|2|Gabriela|
+|[Dockerizar o frontend](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/35)|2|Ezequiel|
+|[Dockerizar o backend](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/29)|3|Gabriela|
+|[Criar Documentação de Planning da Sprint 2](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/30)|3|Vitor|
+|[Criar Documentação de Review da Sprint 2](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/33)|3|Vitor|
+|[Tela de login do usuário](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/36)|3|Dafne e Davi|
+|[Tela de cadastro de usuario](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/32)|5|Victor e João Pedro|
+|[CRUD de usuários no backend](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/27)|5|Lucas e Thiago|
 

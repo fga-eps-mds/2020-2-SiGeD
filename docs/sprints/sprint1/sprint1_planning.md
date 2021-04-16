@@ -34,14 +34,14 @@
 
 |Issue|Pontos|Responsáveis|
 |--|--|--|
-|[Definição de licença do projeto](https://github.com/fga-eps-mds/2020-2-G4/issues/3)|1|Gabriela, Vitor, Gabriel, Ezequiel|
-|[Elaborar Guia de contribuição](https://github.com/fga-eps-mds/2020-2-G4/issues/7)|2|Gabriela|
-|[Dojo de React](https://github.com/fga-eps-mds/2020-2-G4/issues/8)|2|Vitor e time de MDS|
-|[Dojo Back-end](https://github.com/fga-eps-mds/2020-2-G4/issues/11)|2|Gabriel e time de MDS|
-|[Adicionar Zenhub ao projeto](https://github.com/fga-eps-mds/2020-2-G4/issues/9)|2|Vitor|
-|[Estilizar o Github Pages](https://github.com/fga-eps-mds/2020-2-G4/issues/22)|2|Gabriela|
-|[Criar Documentação de Planning da Sprint 1](https://github.com/fga-eps-mds/2020-2-G4/issues/19)|3|Vitor|
-|[Criar Documentação de Review da Sprint 1](https://github.com/fga-eps-mds/2020-2-G4/issues/15)|3|Vitor|
-|[Adicionar MKDocs ao repositório](https://github.com/fga-eps-mds/2020-2-G4/issues/10)|3|Gabriela|
-|[Estudo para aplicação do lean inception](https://github.com/fga-eps-mds/2020-2-G4/issues/13)|3|Ezequiel|
+|[Definição de licença do projeto](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/3)|1|Gabriela, Vitor, Gabriel, Ezequiel|
+|[Elaborar Guia de contribuição](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/7)|2|Gabriela|
+|[Dojo de React](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/8)|2|Vitor e time de MDS|
+|[Dojo Back-end](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/11)|2|Gabriel e time de MDS|
+|[Adicionar Zenhub ao projeto](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/9)|2|Vitor|
+|[Estilizar o Github Pages](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/22)|2|Gabriela|
+|[Criar Documentação de Planning da Sprint 1](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/19)|3|Vitor|
+|[Criar Documentação de Review da Sprint 1](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/15)|3|Vitor|
+|[Adicionar MKDocs ao repositório](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/10)|3|Gabriela|
+|[Estudo para aplicação do lean inception](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/13)|3|Ezequiel|
 
