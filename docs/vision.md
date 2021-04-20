@@ -13,6 +13,7 @@ O projeto tem o intuito de auxiliar no trabalho da DPSS. Na data de escrita dest
 O escopo do projeto está associado a necessidade da DPSS em armazenar dados e acompanhar servidores que necessitam de algum serviço oferecido pela DPSS, sem a necessidade de vasculhar planilhas ou pastas todos os dias para dar sequência a uma demanda que chegue até a DPSS.
 
 ### 1.3. Definições, acrônimos e abreviações
+- SiGeD - Sistema de Gerenciamento de Demandas 
 - FGA - Faculdade do Gama.
 - UnB - Universidade de Brasília.
 - MDS - Métodos de Desenvolvimento de Software.
@@ -45,13 +46,13 @@ O último e o sétimo tópico, aprensenta nossas referências que ajudaram no pr
 ## 2. Posicionamento
 
 ### 2.1. Oportunidade de negócio
-O @name ,tem como objetivo principal atenuar as chances de erro causados pelos servidores da atual DPSS, agregando no rendimento dos funcionários.Além disso, digitalizar os processos de registro e agendamento, conseguimos evitar possíveis perdas de dados e documentos importantes. provendo uma melhora de agilidade e facilidade para acompanhamentos e atendimentos.
+O SiGeD ,tem como objetivo principal atenuar as chances de erro causados pelos servidores da atual DPSS, agregando no rendimento dos funcionários.Além disso, digitalizar os processos de registro e agendamento, conseguimos evitar possíveis perdas de dados e documentos importantes. provendo uma melhora de agilidade e facilidade para acompanhamentos e atendimentos.
 
 
 ### 2.2. Instrução do problema
 Os servidores da DPSS, no presente momento, sofrem com o processo de organização das demandas e a verificação dos dados do cliente. Ambos os processos ainda são feitos a partir de fichas escritas em papel ou mensagens de texto, faltando padronização e mecanismo de busca para aquisição de dados.
 
-Visto que o problema está ligado principalmente ao acesso e a perda de dados. O @name gerência e padroniza a forma que o serviço é feito. Assim, nosso produto simplifica e acelera o trabalho do oficial.
+Visto que o problema está ligado principalmente ao acesso e a perda de dados. O SiGeD gerência e padroniza a forma que o serviço é feito. Assim, nosso produto simplifica e acelera o trabalho do oficial.
 
 ### 2.3. Instrução de Posição do produto
 
@@ -80,7 +81,7 @@ DPSS | Representa o departamento | Administra e tem acesso a todas as demandas e
 ## 4. Visão Geral do Produto
 
 ### 4.1 Perspectiva do Produto:
-Os funcionários da DPSS não possuem um software de uso próprio para auxiliá-los em todas suas necessidades e para este fim o @name foi criado. Ele é um website que auxilia os funcionários da DPSS a realizar os atendimentos, salvamento de dados e prontuário dos pacientes, agilizar a realização de tarefas e criar estatísticas baseadas nos dados da plataforma.
+Os funcionários da DPSS não possuem um software de uso próprio para auxiliá-los em todas suas necessidades e para este fim o SiGeD foi criado. Ele é um website que auxilia os funcionários da DPSS a realizar os atendimentos, salvamento de dados e prontuário dos pacientes, agilizar a realização de tarefas e criar estatísticas baseadas nos dados da plataforma.
 
 ### 4.2 Resumo das capacidades:
 

@@ -1,8 +1,8 @@
 # Guia de Contribuição
 
-Este é um documento para auxiliar a como contribuir para o projeto **2020.2-G4**. O projeto é constituido de vários repositórios e esse guia é aplicado em todos eles. 
+Este é um documento para auxiliar a como contribuir para o projeto **2020.2-SiGeD**. O projeto é constituido de vários repositórios e esse guia é aplicado em todos eles. 
 
-Orientamos que antes de começar a contribuir veja as [issues já abertas](https://github.com/fga-eps-mds/2020-2-G4/issues).
+Orientamos que antes de começar a contribuir veja as [issues já abertas](https://github.com/fga-eps-mds/2020-2-SiGeD/issues).
 
 ## Como contribuir
 
@@ -18,7 +18,7 @@ Lembre-se de seguir as políticas do projeto para a criação de issues, PRs, br
 
 ## Politica de issues
 
-As issues devem ser criadas no [repositório de documentação do projeto](https://github.com/fga-eps-mds/2020-2-G4/).
+As issues devem ser criadas no [repositório de documentação do projeto](https://github.com/fga-eps-mds/2020-2-SiGeD/).
 
 As issues do projetos devem ser completas e explicativas, seguindo o template de issue do repositório.
 
@@ -98,7 +98,7 @@ Descrição completa do que foi feito
 
 Onde só deve ser utilizado o *closes* antes do link da issue, caso o PR resolva completamente a issue citada.
 
-Caso o PR seja feito em um dos repositórios de desenvolvimento, o link para a issue do repositório de documentação é feito da seguinte forma: `fga-eps-mds/2020-2-G4#x`, onde x é o número da issue.
+Caso o PR seja feito em um dos repositórios de desenvolvimento, o link para a issue do repositório de documentação é feito da seguinte forma: `fga-eps-mds/2020-2-SiGeD#x`, onde x é o número da issue.
 
 Em casos de PRs em que ainda estão sendo desenvolvidos, deve ser acrescentado a sigla **WIP** antes do título do PR.
 

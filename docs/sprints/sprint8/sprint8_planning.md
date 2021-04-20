@@ -25,19 +25,19 @@
 
 |Issue|Pontos|Responsáveis|
 |--|--|--|
-|[Criar Documentação de Review da Sprint 7](https://github.com/fga-eps-mds/2020-2-G4/issues/172)|2|Vitor|
-|[Criar Documentação de Planning da Sprint 8](https://github.com/fga-eps-mds/2020-2-G4/issues/168)|2|Vitor|
-|[Editar Demandas](https://github.com/fga-eps-mds/2020-2-G4/issues/156)|2|João,Davi|
-|[Filtro de setores](https://github.com/fga-eps-mds/2020-2-G4/issues/159)|2|Yukio,Davi|
-|[Limitar a visualização de telas baseada no tipo de usuário](https://github.com/fga-eps-mds/2020-2-G4/issues/161)|3|Thiago,Dafne|
-|[Acesso somente via login](https://github.com/fga-eps-mds/2020-2-G4/issues/162)|3|Thiago,Dafne|
-|[CI de Testes %](https://github.com/fga-eps-mds/2020-2-G4/issues/165)|2|Ezequiel|
-|[Atualizar Documento de arquitetura](https://github.com/fga-eps-mds/2020-2-G4/issues/166)|2|Vitor,Gabriel|
-|[Visualizar demandas desativadas](https://github.com/fga-eps-mds/2020-2-G4/issues/169)|3|Yukio, Davi|
-|[Visualizar clientes desativados](https://github.com/fga-eps-mds/2020-2-G4/issues/170)|2|Yukio, Davi|
-|[Gerar nome da tag por script](https://github.com/fga-eps-mds/2020-2-G4/issues/173)|5|Gabriela, Gabriel|
-|[Criar Demandas](https://github.com/fga-eps-mds/2020-2-G4/issues/151)|8|João,Davi|
-|[Incluir nome do projeto em todos os repositórios](https://github.com/fga-eps-mds/2020-2-G4/issues/174)|1|Ezequiel|
-|[Histórico de setores em uma demanda](https://github.com/fga-eps-mds/2020-2-G4/issues/163)|5|João, Lucas|
-|[Fix Deploy de frontend](https://github.com/fga-eps-mds/2020-2-G4/issues/164)|1|Gabriela|
-|[Visualização e Criação de Atualização de Demanda](https://github.com/fga-eps-mds/2020-2-G4/issues/171)|5|João, Lucas|
+|[Criar Documentação de Review da Sprint 7](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/172)|2|Vitor|
+|[Criar Documentação de Planning da Sprint 8](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/168)|2|Vitor|
+|[Editar Demandas](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/156)|2|João,Davi|
+|[Filtro de setores](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/159)|2|Yukio,Davi|
+|[Limitar a visualização de telas baseada no tipo de usuário](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/161)|3|Thiago,Dafne|
+|[Acesso somente via login](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/162)|3|Thiago,Dafne|
+|[CI de Testes %](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/165)|2|Ezequiel|
+|[Atualizar Documento de arquitetura](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/166)|2|Vitor,Gabriel|
+|[Visualizar demandas desativadas](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/169)|3|Yukio, Davi|
+|[Visualizar clientes desativados](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/170)|2|Yukio, Davi|
+|[Gerar nome da tag por script](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/173)|5|Gabriela, Gabriel|
+|[Criar Demandas](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/151)|8|João,Davi|
+|[Incluir nome do projeto em todos os repositórios](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/174)|1|Ezequiel|
+|[Histórico de setores em uma demanda](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/163)|5|João, Lucas|
+|[Fix Deploy de frontend](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/164)|1|Gabriela|
+|[Visualização e Criação de Atualização de Demanda](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/171)|5|João, Lucas|

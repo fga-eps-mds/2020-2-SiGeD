@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Grupo 4</title>
+    <title>SiGeD</title>
     <link rel="stylesheet" href="./assets/css/landing_page.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,7 +15,7 @@
     
     <div class="navbar">
       <div class="nav-links">
-        <a href="http://github.com/fga-eps-mds/2020-2-G4" title="Repositórios">
+        <a href="http://github.com/fga-eps-mds/2020-2-SiGeD" title="Repositórios">
           <img src="assets/img/github-brands.svg" color="#FFFFFF" alt="Repositórios" height="20px" width="20px">
         </a>
         <a href="home" title="Documentação">
@@ -29,7 +29,7 @@
     
     
       <div class="page-top">
-        <h1 class="title">Projeto de EPS e MDS do Grupo 4</h1>
+        <h1 class="title">SiGeD</h1>
         <p class="description">Projeto feito em parceria com a DPSS da Polícia Civíl do Estado de Goiás</p>
       </div>
       
@@ -95,7 +95,7 @@
             <img class="button-icon" src="assets/img/docs.svg" alt="Documentação">
             <p>Acesse a documentação do projeto</p>
           </div>
-          <div class="card-button" onclick="location.href='https://github.com/fga-eps-mds/2020-2-g4';">
+          <div class="card-button" onclick="location.href='https://github.com/fga-eps-mds/2020-2-SiGeD';">
             <img class="button-icon" src="assets/img/github.png" alt="Documentação">
             <p>Veja o Repositório</p>
           </div>
@@ -110,7 +110,7 @@
     </div>
 
     <footer>
-      <h1 class="footer-title">EPS/MDS - Grupo 4</h1>
+      <h1 class="footer-title">SiGeD - Sistema de Gerenciamento de Demandas</h1>
     </footer>
 
   </body>
@@ -135,7 +135,7 @@
         let data = await response.json()
         return data.avatar_url
       } else {
-        alert("HTTP-Error: " + response.status);
+        console.log("HTTP-Error: " + response.status);
       }
     }
 
@@ -145,7 +145,7 @@
         teamMembers.innerHTML += `
         <a href="https://github.com/${dev.user}/">
           <div class="img-container ">
-            <img src="${image}" alt="member" class="image">
+            <img src="${image}" alt="${dev.user}" class="image">
             <div class="middle">
               <div class="name">${dev.name}</div>
               <div class="role">${dev.role}</div>
