@@ -2,7 +2,7 @@
 
 ## Resultados obtidos na sprint 9
 
-Na sprint 9 a quantidade de pontos concluídos diminuiu, devido à alguns débitos técnicos. Tais débitos tiveram como motivo muitas atividades de outras matérias de todo o grupo, o que prejudicou o desenvolvimento das atividades.
+Na sprint 9 a quantidade de pontos concluídos diminuiu, devido à alguns débitos técnicos obtidos na sprint anterior, com isso o foco maior foi em cumprir os debitos e finalizar as histórias de usuário para o MVP
 
 ## Tarefas da sprint
 
