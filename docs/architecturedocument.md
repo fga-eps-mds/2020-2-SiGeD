@@ -1,17 +1,6 @@
 <h1 style='text-align: center;'>Documento de Arquitetura</h1>
 
-### Sumário
-
-[Introdução](#introducao)
-
-[Representação da Arquitetura](#arquitetura)
-
-[Metas e Restrições de Arquitetura](#metas)
-
-
-[Visão de Implementação](#visao_implementacao)
-
-<a name="introducao"></a><h2>1. Introdução</h2>
+## 1. Introdução
 
 ### Finalidade:
 
@@ -58,7 +47,7 @@ Esse recurso foi utilizado na aplicação principalmente para armazenar e utiliz
 
 ![Diagrama Context](assets/img/diagrama_context.png)
 
-<a name="metas"></a><h2>3. Metas e Restrições de Arquitetura</h2>
+## 3. Metas e Restrições de Arquitetura
 Metas:
 
 - Estabilidade do sistema
@@ -71,7 +60,7 @@ Restrições:
 - **Node.js:** desenvolvimento dos microsserviços
 - **MongoDB**: banco de dados não relacional
 
-<a name="visao_implementacao"></a><h2> 4. Visão de Implementação</h2>
+## 4. Visão de Implementação
 
 ### Modelagem de dados
 
@@ -87,7 +76,10 @@ Restrições:
 
 ![Diagrama de pacotes-2](assets/img/diagrama_pacotes_back.png)
 
-## 5. Bibliografia
+## 5. Pipeline de Integração e Deploy Continuos
+
+![Diagrama de pipeline](assets/img/pipeline.png)
+## 6. Bibliografia
 
 [Policia Civil do Estado de Goiás](https://www.policiacivil.go.gov.br/cpss), Acesso em: 19/03/2021, 11:14, Horário de Brasília.
 
