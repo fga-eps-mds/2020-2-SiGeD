@@ -80,7 +80,9 @@ nav:
       - Review: sprints/sprint9/sprint9_review.md
     - Sprint 10:
       - Planning: sprints/sprint10/sprint10_planning.md
-      - Review: sprints/sprint10/sprin10_review.md
+      - Review: sprints/sprint10/sprint10_review.md
+    - Sprint 11:
+      - Planning: sprints/sprint11/sprint11_planning.md
   - Templates:
     - Planning: template_docs/template_planning.md
     - Review: template_docs/template_review.md
