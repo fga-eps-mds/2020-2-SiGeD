@@ -35,18 +35,15 @@ As issues devem conter:
 
 ### Repositórios de desenvolvimento
 
-Nos repositórios do código do projeto temos duas branches principais, a **master** e a **development**. 
+Nos repositórios do código do projeto temos uma branch principal, a **master**. 
 
 #### master
-A branch **master** é a branch mais estável do projeto, que estará em produção. Essa branch é protegida de commits e deve receber Pull Requests somente da brach **development**.
-
-#### development
-A branch **development** é a branch de desenvolvimento, onde as novas features desenvolvidas serão adicionadas. Os Pull Requests das novas branches devem ser feitos a ela, para depois de que a estabilidade do código estiver garantida, ser adicionada a **master**.
+A branch **master** é a branch mais estável do projeto, que estará em produção. Essa branch é protegida de commits e para o desenvolvimento de novas funcionalidades, deve receber Pull Requests (PRs).
 
 #### Novas branches
-As branches para o desenvolvimento de novas features devem ser criadas a partir da branch **development** e devem seguir o padrão **x-nome-da-issue**, onde x é o número da issue que será resolvida na branch, acompanhado pelo nome da issue.
+As branches para o desenvolvimento de novas features devem ser criadas a partir da branch **master** e devem seguir o padrão **x-nome-da-issue**, onde x é o número da issue que será resolvida na branch, acompanhado pelo nome da issue.
 
-Os Pull Requests das novas branches devem ser feitos para a branch **development**.
+Os Pull Requests das novas branches devem ser feitos para a branch **master**.
 
 Em casos de correções rápidas de bugs, a branch  deve seguir o padrão **FIX-x-problema-a-ser-resolvido**, onde x é o número da issue, caso tenha.
 
@@ -54,7 +51,7 @@ Em casos de correções rápidas de bugs, a branch  deve seguir o padrão **FIX-
 
 No repositório de documentação temos as branches **master** e **gh-pages**. Onde na **master** está o código da página de documentação do github pages e na branch **gh-pages** está o site compilado e em produção.
 
-Assim como nos repositórios de desenvolvimento do projeto, no repositório de documentação a branch **master** está protegida e só deve aceitar modificações por Pull Requests, entretanto não há a branch **development** de forma que os Pull Requests devem ser feitos diretamente na **master**.
+Assim como nos repositórios de desenvolvimento do projeto, no repositório de documentação a branch **master** está protegida e só deve aceitar modificações por Pull Requests..
 
 As novas branches, assim como nos repositórios de desenvolvimento devem seguir a estrutura **x-nome-da-issue**.
 
@@ -84,7 +81,7 @@ Co-authored-by: Nome da dupla <emaildadupla@email.com>"
  
 ## Politica de Pull Requests (PRs)
 
-Nos repositórios de desenvolvimento os PRs devem ser feitos para a branch **development**, enquanto no repositório de documentação, os PRs devem ser feitos a branch **master**.
+Os PRs devem ser feitos a branch **master**.
 
 Os Pull Requests devem ser feitos seguindo o template:
 
@@ -98,7 +95,7 @@ Descrição completa do que foi feito
 
 Onde só deve ser utilizado o *closes* antes do link da issue, caso o PR resolva completamente a issue citada.
 
-Caso o PR seja feito em um dos repositórios de desenvolvimento, o link para a issue do repositório de documentação é feito da seguinte forma: `fga-eps-mds/2020-2-SiGeD#x`, onde x é o número da issue.
+Caso o PR seja feito em um dos repositórios de desenvolvimento, o link para a issue do repositório de documentação é feito da seguinte forma: `fga-eps-mds/2020-2-SiGeD#x`, onde x é o número da issue. E no lugar de *closes* deve ser utilizado  ***resolves***.
 
 Em casos de PRs em que ainda estão sendo desenvolvidos, deve ser acrescentado a sigla **WIP** antes do título do PR.
 
@@ -111,4 +108,4 @@ Os PRs devem conter:
 - Uma issue associada;  
 - Uma descrição, seguindo o template do repositório, que deve incluir uma descrição completa do que foi feito e a issue relacionada.  
 
-Os PRs só serão aceitos após passarem pelo CI estabelecido e por uma revisão.
+Os PRs só serão aceitos após passarem pelo CI estabelecido e por duas revisões.
