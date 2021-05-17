@@ -1,6 +1,12 @@
 # SiGeD
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL3-blue.svg)](https://opensource.org/licenses/gpl-3.0.html)
 
+<img
+src="SiGeD-Logo.png"
+alt="SiGeD logo"
+style="float: center;"
+>
+
 ## SiGeD
   SiGeD (Sistema de Gerenciamento de Demandas) tem o próposito de facilitar o gerenciamento de vários serviços da DPSS - Divisão de Proteção à Saúde do Servidor do estado de Goiás, promovendo uma interface entre funcionários de diferentes setores da área, auxiliando os funcionários da DPSS a cadastrar pacientes e atendimentos, facilitando também a atualização e visualização dos dados dos pacientes, serviços e demandas. 
 
