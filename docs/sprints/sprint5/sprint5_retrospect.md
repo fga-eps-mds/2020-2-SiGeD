@@ -5,6 +5,7 @@
 - Sprint muito produtiva, não houve débitos tecnicos
 - Sprint muito focada em relação a documentação
 - Houve uma sobrecarga de issues nos membros de EPS, devido a tarefas atrasadas que ainda não haviam sido planejadas de documentação.
+- Foi relatado dificuldades com rebase e uso com insomnia.
 
 ## Pontos Positivos listados pela equipe
   ![img](./pontos_positivos.png)
