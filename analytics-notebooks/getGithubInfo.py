@@ -8,11 +8,11 @@ class Issue:
     self.labels=labels
     self.sprint=sprint
 
-def get_issues_by_label(label):
+def get_issues_by_label_and_milestone(label, milestone):
   issues=[]
   page=1
   while True:
-    issues_per_page = requests.get('http://api.github.com/repos/fga-eps-mds/2020-2-SiGeD/issues?state=all&per_page=100&page={}&pulls=true&labels={}'.format(page, label))
+    issues_per_page = requests.get('http://api.github.com/repos/fga-eps-mds/2020-2-SiGeD/issues?state=all&per_page=100&page={}&pulls=true&labels={}&milestone={}'.format(page, label, milestone))
     
     if issues_per_page.headers['X-RateLimit-Remaining'] == '0':
       timestamp = int(issues_per_page.headers['X-RateLimit-Reset'])
@@ -30,35 +30,9 @@ def get_issues_by_label(label):
       if len(issues_per_page.json()) == 0:
         break
 
-  print(label + ' ' +  str(len(issues)))
+  print(str(milestone) + ' ' + label + ' ' +  str(len(issues)))
   return issues
 
-def get_issues_by_milestone(milestone):
-  issues=[]
-  page=1
-  while True:
-    issues_per_page = requests.get('http://api.github.com/repos/fga-eps-mds/2020-2-SiGeD/issues?state=all&per_page=100&page={}&pulls=true&milestone={}'.format(page, milestone))
-    
-    if issues_per_page.headers['X-RateLimit-Remaining'] == '0':
-      timestamp = int(issues_per_page.headers['X-RateLimit-Reset'])
-      date_time = datetime.fromtimestamp(timestamp)
-      reset = date_time.strftime("%d/%m/%Y, %H:%M:%S")
-      print('ATENÇÃO:')
-      print('Limite de requisições atingido, espere até {}.'.format(reset))
-      break
-
-    
-    else:
-      print(issues_per_page.json())
-      for item in issues_per_page.json():
-        issue = Issue(item['number'], item['title'], item['labels'], item['milestone'])
-        issues.append(issue)
-      page+=1
-      if len(issues_per_page.json()) == 0:
-        break
-
-  print(milestone + ' ' +  str(len(issues)))
-  return issues
 
 # def separate_issues_in_sprints(issues):
 #   sprints = {}
@@ -68,26 +42,24 @@ def get_issues_by_milestone(milestone):
 #     if sprints
 
 if __name__ == '__main__':
-  # hard = get_issues_by_label('HARD')
-  # medium = get_issues_by_label('MEDIUM')
-  # easy = get_issues_by_label('EASY')
 
-  # hotfix = get_issues_by_label('HOTFIX')
-  # docs = get_issues_by_label('DOCS')
-  # feature = get_issues_by_label('FEATURE')
+  for sprint in range(1,15):
+    hard = get_issues_by_label_and_milestone('HARD', sprint)
+    medium = get_issues_by_label_and_milestone('MEDIUM', sprint)
+    easy = get_issues_by_label_and_milestone('EASY', sprint)
 
-  # arq = get_issues_by_label('ARQ')
-  # devops = get_issues_by_label('DEVOPS')
-  # analytics = get_issues_by_label('ANALYTICS')
+    hotfix = get_issues_by_label_and_milestone('HOTFIX', sprint )
+    docs = get_issues_by_label_and_milestone('DOCS', sprint )
+    feature = get_issues_by_label_and_milestone('FEATURE', sprint )
 
-  # us = get_issues_by_label('US')
+    arq = get_issues_by_label_and_milestone('ARQ', sprint )
+    devops = get_issues_by_label_and_milestone('DEVOPS', sprint )
+    analytics = get_issues_by_label_and_milestone('ANALYTICS', sprint )
 
-  # eps = get_issues_by_label('EPS')
-  # mds = get_issues_by_label('MDS')
+    us = get_issues_by_label_and_milestone('US', sprint )
 
-  for sprint in range(15):
-    issues_per_sprint = get_issues_by_milestone(sprint)
-
+    eps = get_issues_by_label_and_milestone('EPS', sprint )
+    mds = get_issues_by_label_and_milestone('MDS', sprint )
 
 
 #     "HOTFIX": 4,
