@@ -3,3 +3,4 @@ pandas
 seaborn
 urllib3
 matplotlib
+openpyxl
