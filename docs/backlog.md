@@ -126,6 +126,19 @@ Notificações ao usuário, relacionadas a chegada de demanda para este usuário
 #### Histórias de usuário
 ![Epico](./assets/img/backlog/epics/alerta_acompanhamento.png)
 
+
+### Épico: [Telas Iniciais](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/235)
+
+Telas iniciais do projeto de acordo com as permissões do usuário, para facilitar acesso as funcionalidades
+
+#### Histórias de usuário
+![Epico](./assets/img/backlog/epics/telas_iniciais.png)
+
+
+## Futuros Incrementos
+
+Além das histórias de usuários mapeadas com o auxílio do lean inception, também foram mapeadas novas histórias de usuário, a partir de reuniões com os donos do produto, que ficaram documentadas para incrementos futuros.
+
 ### Épico: [Anexos de documentos](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/135)
 
 Possibilitar o anexo de arquivos para demandas com fins comprobatórios ou para evoluções da demanda.
@@ -140,27 +153,12 @@ Notificação para o cliente, relacionada a dias de consulta e quando a data da 
 #### Funcionalidades do Lean Inception
 ![Lean Inception](./assets/img/backlog/mural/consultas.png)
 
-
-#### Histórias de usuário
-![Epico](./assets/img/backlog/epics/alerta_consultas.png)
-
-### Épico: [Telas Iniciais](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/235)
-
-Telas iniciais do projeto de acordo com as permissões do usuário, para facilitar acesso as funcionalidades
-
-#### Histórias de usuário
-![Epico](./assets/img/backlog/epics/telas_iniciais.png)
-
 ### Épico: [Relatórios](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/236)
 
 Funcionalidade para gerar relatórios dos clientes e demandas
 
 #### Histórias de usuário
 ![Epico](./assets/img/backlog/epics/relatorios.png)
-
-## Futuros Incrementos
-
-Além das histórias de usuários mapeadas com o auxílio do lean inception, também foram mapeadas novas histórias de usuário, a partir de reuniões com os donos do produto, que ficaram documentadas para incrementos futuros.
 
 ### Épico: Notificações
 
