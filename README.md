@@ -18,6 +18,7 @@ O projeto é feito utilizando a arquitetura em microsserviços, portanto possui 
 - [API de Clientes](https://github.com/fga-eps-mds/2020-2-SiGeD-Clients)
 - [API de Usuários](https://github.com/fga-eps-mds/2020-2-SiGeD-Users)
 - [API de Demandas](https://github.com/fga-eps-mds/2020-2-SiGeD-Demands)
+- [API de Setores](https://github.com/fga-eps-mds/2020-2-SiGeD-Sectors)
 
 Para executar o projeto é preciso rodar os seguintes passos em todos os repositórios vinculados ao projeto:
 ### Usando Docker
