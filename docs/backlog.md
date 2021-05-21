@@ -203,6 +203,6 @@ Dessa forma podemos estimar as pontuações a serem entregues em cada Release do
 Release   | Pontuação
 --------- | ------
 Release 1 | 25
-MVP       | 88
-Release 2 | 158
-Total     | 271
+MVP       | 80
+Release 2 | 79
+Total     | 184
