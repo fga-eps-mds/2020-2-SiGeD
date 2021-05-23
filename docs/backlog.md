@@ -153,6 +153,9 @@ Notificação para o cliente, relacionada a dias de consulta e quando a data da 
 #### Funcionalidades do Lean Inception
 ![Lean Inception](./assets/img/backlog/mural/consultas.png)
 
+#### Histórias de usuário
+![Epico](./assets/img/backlog/epics/alerta_de_consultas.png)
+
 ### Épico: [Relatórios](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/236)
 
 Funcionalidade para gerar relatórios dos clientes e demandas
@@ -166,13 +169,6 @@ Alertar o usuário quando uma demanda for criada ou encaminhada para o seu setor
 
 #### Histórias de usuário
 ![Epico](./assets/img/backlog/epics/notificacoes.png)
-
-### Épico: Alerta de consultas
-
-Criação de alertas para o cliente quando uma consulta foi agendada e quando a consulta estiver próxima.
-
-#### Histórias de usuário
-![Epico](./assets/img/backlog/epics/alerta_de_consultas.png)
 
 ### Épico: Lotação
 
