@@ -3,10 +3,10 @@
 ## Análise da sprint
 
 - Esforços dos time voltados ao problema de coleta de dados.
-- diminuição no ritmo da entrega de novas release e foco em consertar erros em produção.
+- Diminuição no ritmo da entrega de novas release e foco em consertar bugs na aplicação.
 
 ## Pontos Positivos listados pela equipe
-  ![img](./pontos_positivos_13.png)
+  ![img](./pontos_positivos.png)
 
 ## Pontos a Melhorar listados pela equipe 
-  ![img](./pontos_melhoria_13.png)
+  ![img](./pontos_melhoria.png)

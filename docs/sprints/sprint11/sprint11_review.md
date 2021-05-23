@@ -25,3 +25,9 @@ Na sprint 11 a equipe voltou a ficar alegre e produtiva. As medidas adotadas na 
 |[Refatorar Backlog](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/229)|3|<image src="https://i.pinimg.com/originals/21/3d/c0/213dc0ed0a2e69d1978c75bfbcff903a.png" width=30 height=35>|
 |[Criar Documentação de Review da Sprint 10](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/232)|2|<image src="https://contmoura.com.br/wp-content/uploads/2019/09/x-png-icon-8.png" width=30 height=30>|
 |[Criar Documentação de Planning da Sprint 11](https://github.com/fga-eps-mds/2020-2-SiGeD/issues/233)|2|<image src="https://contmoura.com.br/wp-content/uploads/2019/09/x-png-icon-8.png" width=30 height=30>|
+
+### Burndown
+ ![imagem](burndown.png)
+
+### Conhecimento dos membros
+ ![imagem](conhecimento.png)

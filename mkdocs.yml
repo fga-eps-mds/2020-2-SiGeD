@@ -68,40 +68,40 @@ nav:
       - Review: sprints/sprint5/sprint5_review.md
     - Sprint 6:
       - Planning: sprints/sprint6/sprint6_planning.md
-      - Retrospectiva:
+      - Retrospectiva: sprints/sprint6/sprint6_retrospect.md
       - Review: sprints/sprint6/sprint6_review.md
     - Sprint 7:
       - Planning: sprints/sprint7/sprint7_planning.md
-      - Retrospectiva:
+      - Retrospectiva: sprints/sprint7/sprint7_retrospect.md
       - Review: sprints/sprint7/sprint7_review.md
     - Sprint 8:
       - Planning: sprints/sprint8/sprint8_planning.md
-      - Retrospectiva:
+      - Retrospectiva: sprints/sprint8/sprint8_retrospect.md
       - Review: sprints/sprint8/sprint8_review.md
     - Sprint 9:
       - Planning: sprints/sprint9/sprint9_planning.md
-      - Retrospectiva:
+      - Retrospectiva: sprints/sprint9/sprint9_retrospect.md
       - Review: sprints/sprint9/sprint9_review.md
     - Sprint 10:
       - Planning: sprints/sprint10/sprint10_planning.md
-      - Retrospectiva:
+      - Retrospectiva: sprints/sprint10/sprint10_retrospect.md
       - Review: sprints/sprint10/sprint10_review.md
     - Sprint 11:
       - Planning: sprints/sprint11/sprint11_planning.md
       - Retrospectiva: sprints/sprint11/sprint11_retrospect.md
       - Review: sprints/sprint11/sprint11_review.md
     - Sprint 12:
-      - Planning:
+      - Planning: sprints/sprint12/sprint12_planning.md
       - Retrospectiva: sprints/sprint12/sprint12_retrospect.md
-      - Review:
+      - Review: sprints/sprint12/sprint12_review.md
     - Sprint 13:
-      - Planning:
+      - Planning: sprints/sprint13/sprint13_planning.md
       - Retrospectiva: sprints/sprint13/sprint13_retrospect.md
-      - Review:
+      - Review: sprints/sprint13/sprint13_review.md
     - Sprint 14:
-      - Planning:
+      - Planning: sprints/sprint14/sprint14_planning.md
       - Retrospectiva: sprints/sprint14/sprint14_retrospect.md
-      - Review:
+      - Review: sprints/sprint14/sprint14_review.md
   - Templates:
     - Planning: template_docs/template_planning.md
     - Review: template_docs/template_review.md
