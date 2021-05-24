@@ -1,0 +1,2467 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.5">
+    
+    
+      
+        <title>Documento de Visão - 2020.2 - SiGeD</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bde7dde4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../assets/css/docs.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documento-de-visao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="2020.2 - SiGeD" class="md-header__button md-logo" aria-label="2020.2 - SiGeD" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            2020.2 - SiGeD
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Documento de Visão
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/fga-eps-mds/2020-2-SiGeD/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2020.2 - SiGeD
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../home/" class="md-tabs__link md-tabs__link--active">
+        Documentação
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../leanInception/introduction/" class="md-tabs__link">
+        Lean Inception
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CONTRIBUTING/" class="md-tabs__link">
+        Comunidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sprints/sprint0/sprint0_review/" class="md-tabs__link">
+        Sprints
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../template_docs/template_planning/" class="md-tabs__link">
+        Templates
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="2020.2 - SiGeD" class="md-nav__button md-logo" aria-label="2020.2 - SiGeD" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    2020.2 - SiGeD
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/fga-eps-mds/2020-2-SiGeD/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2020.2 - SiGeD
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
+        Documentação
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Documentação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Documentação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../home/" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../methodology/" class="md-nav__link">
+        Metodologia
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        Backlog do Projeto
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roadmap/" class="md-nav__link">
+        Roadmap
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visual_identity/" class="md-nav__link">
+        Identidade Visual
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototype/" class="md-nav__link">
+        Protótipo
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Documento de Visão
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Documento de Visão
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-proposito" class="md-nav__link">
+    1.1. Propósito
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-escopo" class="md-nav__link">
+    1.2. Escopo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-definicoes-acronimos-e-abreviacoes" class="md-nav__link">
+    1.3. Definições, acrônimos e abreviações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-visao-geral" class="md-nav__link">
+    1.4. Visão geral
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-posicionamento" class="md-nav__link">
+    2. Posicionamento
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Posicionamento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-oportunidade-de-negocio" class="md-nav__link">
+    2.1. Oportunidade de negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-instrucao-do-problema" class="md-nav__link">
+    2.2. Instrução do problema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-instrucao-de-posicao-do-produto" class="md-nav__link">
+    2.3. Instrução de Posição do produto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-descricoes-da-parte-interessada-e-do-usuario" class="md-nav__link">
+    3. Descrições da Parte Interessada e do Usuário
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Descrições da Parte Interessada e do Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-resumo-da-parte-interessada" class="md-nav__link">
+    3.1 Resumo da Parte Interessada:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-resumo-do-usuario" class="md-nav__link">
+    3.2 Resumo do Usuário:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-visao-geral-do-produto" class="md-nav__link">
+    4. Visão Geral do Produto
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Visão Geral do Produto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-perspectiva-do-produto" class="md-nav__link">
+    4.1 Perspectiva do Produto:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-resumo-das-capacidades" class="md-nav__link">
+    4.2 Resumo das capacidades:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-recursos-do-produto" class="md-nav__link">
+    5. Recursos do Produto
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Recursos do Produto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-controle-de-dados-do-cliente" class="md-nav__link">
+    5.1. Controle de dados do cliente
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-historico-de-processos-e-pacientes" class="md-nav__link">
+    5.2. Histórico de Processos e Pacientes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-anexo-documentos" class="md-nav__link">
+    5.3. Anexo Documentos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-estatisticas-dos-atendimentos" class="md-nav__link">
+    5.4. Estatísticas dos Atendimentos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-filtragem-de-solicitacoes" class="md-nav__link">
+    5.5. Filtragem de solicitações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-cadastro-de-agendamentossolicitacoes" class="md-nav__link">
+    5.6. Cadastro de Agendamentos/Solicitações
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-restricoes" class="md-nav__link">
+    6. Restrições
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-referencias" class="md-nav__link">
+    7. Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecturedocument/" class="md-nav__link">
+        Documento de Arquitetura
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../risks/" class="md-nav__link">
+        Gerenciamento de Riscos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../evm/" class="md-nav__link">
+        EVM
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../team/" class="md-nav__link">
+        Equipe
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../presentations/" class="md-nav__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Lean Inception
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Lean Inception" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Lean Inception
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leanInception/introduction/" class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leanInception/product_vision/" class="md-nav__link">
+        Visão De Produto
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leanInception/is_isnot_do_donot/" class="md-nav__link">
+        é - não é - faz - não faz
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leanInception/product_purpose/" class="md-nav__link">
+        Objetivo do Produto
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leanInception/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leanInception/user_journey/" class="md-nav__link">
+        Jornada do Usuário
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leanInception/brainstorming/" class="md-nav__link">
+        BrainStorming
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leanInception/review/" class="md-nav__link">
+        Revisão Técnica, de Negócio, de UX
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leanInception/sequencer/" class="md-nav__link">
+        Sequenciador
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leanInception/canvas/" class="md-nav__link">
+        Canvas MVP
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Comunidade
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Comunidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Comunidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CONTRIBUTING/" class="md-nav__link">
+        Guia de Contribuição
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Sprints
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprints" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Sprints
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
+      
+      <label class="md-nav__link" for="__nav_5_1">
+        Sprint 0
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 0" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 0
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint0/sprint0_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint0/sprint0_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      <label class="md-nav__link" for="__nav_5_2">
+        Sprint 1
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 1" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint1/sprint1_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint1/sprint1_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint1/sprint1_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      <label class="md-nav__link" for="__nav_5_3">
+        Sprint 2
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 2" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint2/sprint2_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint2/sprint2_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint2/sprint2_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      <label class="md-nav__link" for="__nav_5_4">
+        Sprint 3
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 3" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint3/sprint3_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint3/sprint3_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint3/sprint3_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
+      
+      <label class="md-nav__link" for="__nav_5_5">
+        Sprint 4
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 4" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 4
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint4/sprint4_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint4/sprint4_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint4/sprint4_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
+      
+      <label class="md-nav__link" for="__nav_5_6">
+        Sprint 5
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 5" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 5
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint5/sprint5_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint5/sprint5_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint5/sprint5_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
+      
+      <label class="md-nav__link" for="__nav_5_7">
+        Sprint 6
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 6" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_7">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 6
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint6/sprint6_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint6/sprint6_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint6/sprint6_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_8" type="checkbox" id="__nav_5_8" >
+      
+      <label class="md-nav__link" for="__nav_5_8">
+        Sprint 7
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 7" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_8">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint7/sprint7_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint7/sprint7_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint7/sprint7_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" type="checkbox" id="__nav_5_9" >
+      
+      <label class="md-nav__link" for="__nav_5_9">
+        Sprint 8
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 8" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_9">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 8
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint8/sprint8_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint8/sprint8_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint8/sprint8_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10" type="checkbox" id="__nav_5_10" >
+      
+      <label class="md-nav__link" for="__nav_5_10">
+        Sprint 9
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 9" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_10">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 9
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint9/sprint9_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint9/sprint9_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint9/sprint9_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_11" type="checkbox" id="__nav_5_11" >
+      
+      <label class="md-nav__link" for="__nav_5_11">
+        Sprint 10
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 10" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_11">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 10
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint10/sprint10_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint10/sprint10_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint10/sprint10_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_12" type="checkbox" id="__nav_5_12" >
+      
+      <label class="md-nav__link" for="__nav_5_12">
+        Sprint 11
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 11" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_12">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 11
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint11/sprint11_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint11/sprint11_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint11/sprint11_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_13" type="checkbox" id="__nav_5_13" >
+      
+      <label class="md-nav__link" for="__nav_5_13">
+        Sprint 12
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 12" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_13">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 12
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint12/sprint12_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint12/sprint12_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint12/sprint12_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_14" type="checkbox" id="__nav_5_14" >
+      
+      <label class="md-nav__link" for="__nav_5_14">
+        Sprint 13
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 13" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_14">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 13
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint13/sprint13_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint13/sprint13_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint13/sprint13_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_15" type="checkbox" id="__nav_5_15" >
+      
+      <label class="md-nav__link" for="__nav_5_15">
+        Sprint 14
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sprint 14" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_15">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 14
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint14/sprint14_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint14/sprint14_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint14/sprint14_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      <label class="md-nav__link" for="__nav_6">
+        Templates
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Templates" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Templates
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../template_docs/template_planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../template_docs/template_review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../template_docs/template_retrospect/" class="md-nav__link">
+        Retrospectiva
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-proposito" class="md-nav__link">
+    1.1. Propósito
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-escopo" class="md-nav__link">
+    1.2. Escopo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-definicoes-acronimos-e-abreviacoes" class="md-nav__link">
+    1.3. Definições, acrônimos e abreviações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-visao-geral" class="md-nav__link">
+    1.4. Visão geral
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-posicionamento" class="md-nav__link">
+    2. Posicionamento
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Posicionamento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-oportunidade-de-negocio" class="md-nav__link">
+    2.1. Oportunidade de negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-instrucao-do-problema" class="md-nav__link">
+    2.2. Instrução do problema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-instrucao-de-posicao-do-produto" class="md-nav__link">
+    2.3. Instrução de Posição do produto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-descricoes-da-parte-interessada-e-do-usuario" class="md-nav__link">
+    3. Descrições da Parte Interessada e do Usuário
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Descrições da Parte Interessada e do Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-resumo-da-parte-interessada" class="md-nav__link">
+    3.1 Resumo da Parte Interessada:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-resumo-do-usuario" class="md-nav__link">
+    3.2 Resumo do Usuário:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-visao-geral-do-produto" class="md-nav__link">
+    4. Visão Geral do Produto
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Visão Geral do Produto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-perspectiva-do-produto" class="md-nav__link">
+    4.1 Perspectiva do Produto:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-resumo-das-capacidades" class="md-nav__link">
+    4.2 Resumo das capacidades:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-recursos-do-produto" class="md-nav__link">
+    5. Recursos do Produto
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Recursos do Produto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-controle-de-dados-do-cliente" class="md-nav__link">
+    5.1. Controle de dados do cliente
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-historico-de-processos-e-pacientes" class="md-nav__link">
+    5.2. Histórico de Processos e Pacientes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-anexo-documentos" class="md-nav__link">
+    5.3. Anexo Documentos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-estatisticas-dos-atendimentos" class="md-nav__link">
+    5.4. Estatísticas dos Atendimentos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-filtragem-de-solicitacoes" class="md-nav__link">
+    5.5. Filtragem de solicitações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-cadastro-de-agendamentossolicitacoes" class="md-nav__link">
+    5.6. Cadastro de Agendamentos/Solicitações
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-restricoes" class="md-nav__link">
+    6. Restrições
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-referencias" class="md-nav__link">
+    7. Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/fga-eps-mds/2020-2-SiGeD/edit/master/docs/vision.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="documento-de-visao">Documento de Visão</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>Este documento tem o propósito de apresentar de forma geral e clara, o objetivo do projeto, algumas definições e formas de resolver os problemas propostos.</p>
+<h3 id="11-proposito">1.1. Propósito</h3>
+<p>O projeto tem o intuito de auxiliar no trabalho da DPSS. Na data de escrita deste documento, as demandas que chegam para a DPSS são todas processadas e acompanhadas usando planilhas ou outros meios que facilitam o erro humano e podem atrasar o trabalho a ser feito, por isso o intuito é facilitar e agilizar esse processo de trabalho da DPSS.</p>
+<h3 id="12-escopo">1.2. Escopo</h3>
+<p>O escopo do projeto está associado a necessidade da DPSS em armazenar dados e acompanhar servidores que necessitam de algum serviço oferecido pela DPSS, sem a necessidade de vasculhar planilhas ou pastas todos os dias para dar sequência a uma demanda que chegue até a DPSS.</p>
+<h3 id="13-definicoes-acronimos-e-abreviacoes">1.3. Definições, acrônimos e abreviações</h3>
+<ul>
+<li>SiGeD - Sistema de Gerenciamento de Demandas </li>
+<li>FGA - Faculdade do Gama.</li>
+<li>UnB - Universidade de Brasília.</li>
+<li>MDS - Métodos de Desenvolvimento de Software.</li>
+<li>EPS - Engenharia de Projeto de Software.</li>
+<li>DPSS - Divisão de Proteção à Saúde do Servidor.</li>
+<li>Demandas - Formas a qual se solicita um serviço oferecido pela DPS, sendo um serviço administrativo (Retirada do porte de arma, afastamento por calamidade pública...), ou algum atendimento (Fisioterapia, Psicologia.... )</li>
+<li>Plataforma - Referência para o produto que está sendo desenvolvido.</li>
+<li>Front-end - É a camada do software no qual o cliente tem contato, no caso é o website que será utilizado pelo usuário final</li>
+<li>Back-end - É a camada do software no qual o usuário não terá acesso diretamente, esta camada é onde será guardado os dados, e é consumida pelo Front-end</li>
+<li>framework - O framework é um conjunto de códigos genéricos e básicos usados como um pacote por desenvolvedores.</li>
+<li>ReactJs - framework utilizado para o desenvolvimento do Front-end</li>
+<li>NodeJs - framework utilizado para o desenvolvimento do Back-end</li>
+<li>PO's - Donos do produto (Product Owners) são os usuários que estão em contato direto com o grupo de gestão e de desenvolvimento</li>
+</ul>
+<h3 id="14-visao-geral">1.4. Visão geral</h3>
+<p>Esse documento é dividido em 7 sessões. A introdução compõem o escopo e o propósito do projeto dado a situação da DPSS.</p>
+<p>A sessões do posicionamento revela as oportunidades de negócio por trás do produto e explica o problema a ser solucionado.</p>
+<p>O terceiro tópico, visa passar pelas necessidades dos usuários e elaborar a definição de requisitos.</p>
+<p>A visão geral do produto fornece uma visão em alto nível das capacidades do produto, mostrando uma perspectiva do produto e suas funções.</p>
+<p>Na quinta sessão, o recursos do produto lista os recursos do produto. Cada subtópico dessa sessão  inclui uma descrição e o problema que deve solucionar.
+A sexta sessão, observam-se as restrições de design e as retrições externas, como requisitos operacionais ou regulamentares.</p>
+<p>O último e o sétimo tópico, aprensenta nossas referências que ajudaram no processo de elaboração do documento.</p>
+<h2 id="2-posicionamento">2. Posicionamento</h2>
+<h3 id="21-oportunidade-de-negocio">2.1. Oportunidade de negócio</h3>
+<p>O SiGeD ,tem como objetivo principal atenuar as chances de erro causados pelos servidores da atual DPSS, agregando no rendimento dos funcionários.Além disso, digitalizar os processos de registro e agendamento, conseguimos evitar possíveis perdas de dados e documentos importantes. provendo uma melhora de agilidade e facilidade para acompanhamentos e atendimentos.</p>
+<h3 id="22-instrucao-do-problema">2.2. Instrução do problema</h3>
+<p>Os servidores da DPSS, no presente momento, sofrem com o processo de organização das demandas e a verificação dos dados do cliente. Ambos os processos ainda são feitos a partir de fichas escritas em papel ou mensagens de texto, faltando padronização e mecanismo de busca para aquisição de dados.</p>
+<p>Visto que o problema está ligado principalmente ao acesso e a perda de dados. O SiGeD gerência e padroniza a forma que o serviço é feito. Assim, nosso produto simplifica e acelera o trabalho do oficial.</p>
+<h3 id="23-instrucao-de-posicao-do-produto">2.3. Instrução de Posição do produto</h3>
+<p>Para os servidores que trabalham na DPSS, que constantemente fazem consultas de demandas, e acompanhamento de serviços que são oferecidos, porém o departamento não conta com nenhum serviço próprio para realização desse trabalho, que provoca certa demora para a conclusão de demandas simples, ou dificuldade na recuperação de dados. atualmente é utilizado uma tabela na internet para fazer alguns acompanhamentos, além de documentos físicos em papel, o produto proposto tem o objetivo de centralizar as demandas, e facilitar o acesso a esses dados posteriormente.</p>
+<h2 id="3-descricoes-da-parte-interessada-e-do-usuario">3. Descrições da Parte Interessada e do Usuário</h2>
+<h3 id="31-resumo-da-parte-interessada">3.1 Resumo da Parte Interessada:</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Grupo</th>
+<th align="center">Descrição</th>
+<th align="center">Responsabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Equipe de Gestão do Projeto</td>
+<td align="center">Alunos da disciplina de EPS, FGA-UnB</td>
+<td align="center">Gerenciar e direcionar a equipe de desenvolvimento e documentar o projeto.</td>
+</tr>
+<tr>
+<td align="center">Equipe de Desenvolvimento</td>
+<td align="center">Alunos da disciplina de MDS, FGA-UnB</td>
+<td align="center">Desenvolver, testar e documentar um produto final que supra as necessidades do cliente.</td>
+</tr>
+<tr>
+<td align="center">Professor</td>
+<td align="center">Professor das disciplinas EPS e MDS FGA-UnB</td>
+<td align="center">Avaliar e orientar os trabalhos desenvolvidos pela Equipe de MDS e EPS.</td>
+</tr>
+<tr>
+<td align="center">DPSS</td>
+<td align="center">Servidores que trabalham na DPSS</td>
+<td align="center">Orientar e dar a visão sobre o produto.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-resumo-do-usuario">3.2 Resumo do Usuário:</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Grupo</th>
+<th align="center">Descrição</th>
+<th align="center">Responsabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Funcionário DPSS</td>
+<td align="center">Servidores da DPSS</td>
+<td align="center">Resolver demandas administrativas ou não.</td>
+</tr>
+<tr>
+<td align="center">Atendentes</td>
+<td align="center">Recepcionistas</td>
+<td align="center">Cria demandas e registra servidores externos.</td>
+</tr>
+<tr>
+<td align="center">DPSS</td>
+<td align="center">Representa o departamento</td>
+<td align="center">Administra e tem acesso a todas as demandas em andamento e históricos.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-visao-geral-do-produto">4. Visão Geral do Produto</h2>
+<h3 id="41-perspectiva-do-produto">4.1 Perspectiva do Produto:</h3>
+<p>Os funcionários da DPSS não possuem um software de uso próprio para auxiliá-los em todas suas necessidades e para este fim o SiGeD foi criado. Ele é um website que auxilia os funcionários da DPSS a realizar os atendimentos, salvamento de dados e prontuário dos pacientes, agilizar a realização de tarefas e criar estatísticas baseadas nos dados da plataforma.</p>
+<h3 id="42-resumo-das-capacidades">4.2 Resumo das capacidades:</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Benefícios para o Usuário</strong></th>
+<th><strong>Recursos de Suporte</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Padronizar o forma de trabalho</td>
+<td>Aplicação com várias funcionalidades que cobrem suas necessidades</td>
+</tr>
+<tr>
+<td>Maior comodidade do usuário</td>
+<td>O servidor da DPSS pode fazer trabalho remoto</td>
+</tr>
+<tr>
+<td>Evitar perda de dados</td>
+<td>Banco de dados para armazenar documentos</td>
+</tr>
+<tr>
+<td>Agilizar a análise de dados</td>
+<td>Mecanismo de busca no site</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table>
+<thead>
+<tr>
+<th><strong>Benefícios para o Cliente</strong></th>
+<th><strong>Recursos de Suporte</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maior satisfação do Cliente</td>
+<td>Atendimento mais rápido</td>
+</tr>
+<tr>
+<td>Cliente não precisa reenviar os dados</td>
+<td>Os dados estão salvos com rápido acesso</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-recursos-do-produto">5. Recursos do Produto</h2>
+<h3 id="51-controle-de-dados-do-cliente">5.1. Controle de dados do cliente</h3>
+<p>É uma das principais funções da aplicação, o usuário pode cadastrar o cliente no site e acessar os dados cadastrados. </p>
+<h3 id="52-historico-de-processos-e-pacientes">5.2. Histórico de Processos e Pacientes</h3>
+<p>Essa funcionalidade permite ao usuário um controle mais amplo dos clientes para elaborar estatísticas e confirmar eventos posteriormente.</p>
+<h3 id="53-anexo-documentos">5.3. Anexo Documentos</h3>
+<p>Anexar documentos ao realizar um agendamento é essencial para o desenvolvimento do projeto. Uma vez que estamos substituindo o papel por telas digitais, precisamos anexar arquivos no envio de documentos.</p>
+<h3 id="54-estatisticas-dos-atendimentos">5.4. Estatísticas dos Atendimentos</h3>
+<p>As estatísticas de atendimentos são necessárias para o relatório de informações a respeito dos agendamentos. Esse relatório é de responsabilidade da DPSS para avaliar as condições dos clientes.</p>
+<h3 id="55-filtragem-de-solicitacoes">5.5. Filtragem de solicitações</h3>
+<p>A filtragem de solicitações é um mecanismo de busca para facilitar o acesso de informações feitas pelo usuário.</p>
+<h3 id="56-cadastro-de-agendamentossolicitacoes">5.6. Cadastro de Agendamentos/Solicitações</h3>
+<p>O usuário pode cadastrar agendamentos e solicitações pelo site e evitando o uso de papel e padronizando o serviço da DPSS.</p>
+<h2 id="6-restricoes">6. Restrições</h2>
+<p>Para o design, a equipe de gestão do projeto em conjunto com a equipe de desenvolvimento deverão seguir a paleta de cores e o protótipo que foram validados que os PO 's do projeto.
+Para restrição de segurança e até de uso, a plataforma permite que usuários sejam cadastrados por administradores, os usuários que serão cadastrados como funcionários da DPSS poderão cadastrar o público de servidores externos como clientes, que de alguma forma irão precisar dos serviços da DPSS com algum tipo de demanda. Restrição para implementação, o grupo em conjunto decidiu centralizar as plataformas usando Javascript, com os frameworks Reactjs para o Front-end e Nodejs para o Back-end.</p>
+<h2 id="7-referencias">7. Referências</h2>
+<p>IBM Knowledge Center - Documento de Visão: Estruturas de um Documento de Visão.</p>
+<p>Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html</p>
+<p>Acesso em: 17 de Março de 2021.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../prototype/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Protótipo
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../architecturedocument/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Documento de Arquitetura
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.d351de03.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a1609d9a.min.js"></script>
+      
+        <script src="../assets/js/jquery.min.js"></script>
+      
+        <script src="../assets/js/jquery.zoom.min.js"></script>
+      
+        <script src="../assets/js/extra.js"></script>
+      
+    
+  </body>
+</html>
